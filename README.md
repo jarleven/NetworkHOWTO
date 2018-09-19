@@ -11,6 +11,10 @@ RS-232 console 38400baud (8,1,N)
 Username: admin
 Password: <blank>
 
-Default access http oprt 80
+Default access http port 80
 
+Version: 	1910_5.20.R1519P03
+Build date: 	03-Oct-2017
+Posted date: 	17-Oct-2017
 
+Downloaded from : https://h10145.www1.hpe.com/downloads/DownloadSoftware.aspx?SoftwareReleaseUId=22590&ProductNumber=JE009A&lang=&cc=&prodSeriesId=&SaidNumber=
