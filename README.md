@@ -18,3 +18,8 @@ Build date: 	03-Oct-2017
 Posted date: 	17-Oct-2017
 
 Downloaded from : https://h10145.www1.hpe.com/downloads/DownloadSoftware.aspx?SoftwareReleaseUId=22590&ProductNumber=JE009A&lang=&cc=&prodSeriesId=&SaidNumber=
+
+
+Configure VLAN
+https://support.hpe.com/hpsc/doc/public/display?sp4ts.oid=5179473&docLocale=en_US&docId=mmr_kc-0119782
+
