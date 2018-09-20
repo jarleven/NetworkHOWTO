@@ -62,7 +62,7 @@ To execute the factory default reset, perform these steps:
 ```
     
     
-    Du kan legge til eit VLAN med :
+    Add a VLAN :
     
     ProCurve Switch 2610-48# configure
     ProCurve Switch 2610-48(config)# vlan 137
@@ -73,7 +73,7 @@ To execute the factory default reset, perform these steps:
     ProCurve Switch 2610-48(vlan-137)# exit
     
     
-    Du kan slette eit VLAN med :
+    Deleta a VLAN :
     
     no vlan 137
 ``` 
