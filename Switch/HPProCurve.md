@@ -7,7 +7,7 @@ Usermanual for the HP ProCuve 2500 series : ftp://ftp.hp.com/pub/networking/soft
 
 # Putty
 ```
-Telnnet til port 23
+Telnet til port 23
 Serieport, 19200 baud
 ```
 
