@@ -1,5 +1,10 @@
 This is under construction. Just bits and pieces I had in various files
 
+Usermanual for the HP ProCuve 2500 series : ftp://ftp.hp.com/pub/networking/software/59692354.pdf
+
+
+To make things persistent : HP2512(config)# write memory
+
 
 
 Tftp firmware update command
