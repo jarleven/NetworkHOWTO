@@ -60,8 +60,6 @@ To execute the factory default reset, perform these steps:
 
 # Configure VLAN
 ```
-
-
 Add a VLAN :
 
 ProCurve Switch 2610-48# configure
@@ -72,14 +70,13 @@ ProCurve Switch 2610-48(vlan-137)# untagged 37
 ProCurve Switch 2610-48(vlan-137)# show vlan 137
 ProCurve Switch 2610-48(vlan-137)# exit
 
-
 Deleta a VLAN :
 
 no vlan 137
 
 ``` 
     
-
+# TFTP firmware upgrade
 
 Tftp firmware update command
 
