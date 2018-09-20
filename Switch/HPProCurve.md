@@ -64,7 +64,7 @@ To execute the factory default reset, perform these steps:
 
 # Configure VLAN
 ```
-Add a VLAN :
+Add a VLAN
 
 ProCurve Switch 2610-48# configure
 ProCurve Switch 2610-48(config)# vlan 137
@@ -74,17 +74,17 @@ ProCurve Switch 2610-48(vlan-137)# untagged 37
 ProCurve Switch 2610-48(vlan-137)# show vlan 137
 ProCurve Switch 2610-48(vlan-137)# exit
 
-Deleta a VLAN :
+Deleta a VLAN
 
 no vlan 137
 
-``` 
+```
     
 # TFTP firmware upgrade
 
-Tftp firmware update command
+copy tftp flash {tftp server ip} {file} {Primarry | Secondary}
 
-copy tftp flash {ip til tftp server} {filen} {Primarry | Secondary}
+copy tftp flash 192.168.0.1 k0800.swi
 
 http://h22208.www2.hpe.com/eginfolib/networking/docs/switches/K-KA-KB/15-18/5998-8160_ssw_mcg/content/ch10s02.html
 
