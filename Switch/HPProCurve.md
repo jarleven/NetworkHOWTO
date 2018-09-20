@@ -1,4 +1,4 @@
-This is under construction. Just bits and pieces I had in various files
+### HP ProCurve switches
 
 Usermanual for the HP ProCuve 2500 series : ftp://ftp.hp.com/pub/networking/software/59692354.pdf
 
@@ -7,19 +7,14 @@ Usermanual for the HP ProCuve 2500 series : ftp://ftp.hp.com/pub/networking/soft
 
 # Putty
 ```
-Telnet til port 23
-Serieport, 19200 baud
+Telnet port 23
+Serialport @ 19200 baud 8,N,1
 ```
 
+# Terminals for RS-232 
 
-
-
-
-Putty
-  http://www.putty.org/
-
-Terminte ( RS232 terminal )
-  https://www.compuphase.com/software_termite.htm
+* Putty http://www.putty.org/
+* Terminte https://www.compuphase.com/software_termite.htm
  
 
 
