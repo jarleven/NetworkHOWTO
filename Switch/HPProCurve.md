@@ -73,7 +73,7 @@ Sett opp VLAN  
     
     
  
-erase startup-configuration
+erase startup-config
  
 
 Using the CLI
