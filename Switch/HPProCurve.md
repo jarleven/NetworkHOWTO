@@ -60,22 +60,23 @@ To execute the factory default reset, perform these steps:
 
 # Configure VLAN
 ```
-    
-    
-    Add a VLAN :
-    
-    ProCurve Switch 2610-48# configure
-    ProCurve Switch 2610-48(config)# vlan 137
-    ProCurve Switch 2610-48(vlan-137)# name TestVLAN37
-    ProCurve Switch 2610-48(vlan-137)# tagged 49
-    ProCurve Switch 2610-48(vlan-137)# untagged 37
-    ProCurve Switch 2610-48(vlan-137)# show vlan 137
-    ProCurve Switch 2610-48(vlan-137)# exit
-    
-    
-    Deleta a VLAN :
-    
-    no vlan 137
+
+
+Add a VLAN :
+
+ProCurve Switch 2610-48# configure
+ProCurve Switch 2610-48(config)# vlan 137
+ProCurve Switch 2610-48(vlan-137)# name TestVLAN37
+ProCurve Switch 2610-48(vlan-137)# tagged 49
+ProCurve Switch 2610-48(vlan-137)# untagged 37
+ProCurve Switch 2610-48(vlan-137)# show vlan 137
+ProCurve Switch 2610-48(vlan-137)# exit
+
+
+Deleta a VLAN :
+
+no vlan 137
+
 ``` 
     
 
