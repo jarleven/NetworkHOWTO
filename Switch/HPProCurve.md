@@ -39,8 +39,12 @@ reload
 
 ```
 
-N o t e
-The erase startup-config command does not clear passwords.
+```Diff
+-N o t e : The erase startup-config command does not clear passwords.
+
+```
+
+
 
 # Save settings
 ```
