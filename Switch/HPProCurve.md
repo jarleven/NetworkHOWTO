@@ -41,12 +41,12 @@ Terminte ( RS232 terminal )
 
 
 # Show system information
-
 ```
- show system-information
- show ip
- show vlan
-``` 
+show system-information
+show ip
+show vlan
+```
+
 Sett opp VLAN   
     
     configure
