@@ -23,7 +23,6 @@ Serialport @ 19200 baud 8,N,1
 ```
 show system-information
 show ip
-show vlan
 show flash
 ```
 
@@ -76,6 +75,10 @@ To execute the factory default reset, perform these steps:
  HP2512(config)# write memory
 ```
 
+### Show VLAN
+```
+show vlan
+```
 
 ### Configure VLAN
 ```
