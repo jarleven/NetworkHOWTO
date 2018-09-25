@@ -24,7 +24,31 @@ Serialport @ 19200 baud 8,N,1
 show system-information
 show ip
 show vlan
+show flash
 ```
+
+### Show MAC address table
+Will list the MAC address associated with a port on the switch
+```
+show mac
+```
+
+### Show interfaces
+Will display status about every port on the swicth
+```
+show interfaces
+show interfaces config
+show interfaces brief
+```
+
+### Chassislocate LED
+Toggle or set the LED in a blinking state (30 minutes timeout)
+```
+chassislocate blink 10
+chassislocate on
+chassislocate off
+```
+
 
 ### Clear settings / Reboot
 ```
@@ -61,7 +85,7 @@ To execute the factory default reset, perform these steps:
 ```
 Add a VLAN
 
-ProCurve Switch 2610-48# configure
+ProCurve Switch 2610-48# config
 ProCurve Switch 2610-48(config)# vlan 137
 ProCurve Switch 2610-48(vlan-137)# name TestVLAN37
 ProCurve Switch 2610-48(vlan-137)# tagged 49
@@ -74,6 +98,15 @@ Deleta a VLAN
 no vlan 137
 
 ```
+
+### Configure hostname
+Setting a name for the switch
+```
+ProCurve Switch 2610-48# config
+ProCurve Switch 2610-48(config)# hostname 3DEA-48P
+3DEA-48P(config)#
+```
+
     
 ### TFTP firmware upgrade
 
