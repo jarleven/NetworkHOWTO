@@ -86,3 +86,7 @@ http://h22208.www2.hpe.com/eginfolib/networking/docs/switches/K-KA-KB/15-18/5998
 video:
 https://www.youtube.com/watch?v=rdq5vVmoNqg
 
+
+### References
+http://blog.petrilopia.net/info/hp-procurve-cli-cheatsheet-2/
+
