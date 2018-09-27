@@ -9,8 +9,13 @@ Usermanual for the HP ProCuve 2500 series : ftp://ftp.hp.com/pub/networking/soft
 ### J9086A  HP 2610-24-PPoE Switch
 https://h10145.www1.hpe.com/downloads/SoftwareReleases.aspx?ProductNumber=J9086A&lang=en&cc=uk&prodSeriesId=5179339
 
+Firmware R_11_122.swi  04-Mar-2018  Stored @  TFTP server 192.168.1.208
 
-R_11_122.swi  @  192.168.1.208
+### J9085A  HP 2610-24 Switch
+
+04-Mar-2018
+
+https://h10145.www1.hpe.com/downloads/SoftwareReleases.aspx?ProductNumber=J9085A&lang=en&cc=uk&prodSeriesId=5179339&SoftwareReleaseUId=23881&SerialNumber=&PurchaseDate=
 
 
 ### Interfaces
