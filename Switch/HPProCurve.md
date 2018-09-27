@@ -117,7 +117,7 @@ ProCurve Switch 2610-48(config)# hostname 3DEA-48P
     
 ### TFTP firmware upgrade
 
-copy tftp flash {tftp server ip} {file} {Primarry | Secondary}
+copy tftp flash {tftp server ip} {file} {Primary | Secondary}
 
 copy tftp flash 192.168.0.1 k0800.swi
 
