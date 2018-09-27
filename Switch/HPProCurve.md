@@ -2,6 +2,12 @@
 
 Usermanual for the HP ProCuve 2500 series : ftp://ftp.hp.com/pub/networking/software/59692354.pdf
 
+Management and Configuration Guide  
+2610 / 2610-PWR  
+ProCurve Switches R.11.XX  
+
+http://static.highspeedbackbone.net/pdf/Hp-ProCurver-2610-Management-Manual.pdf
+
 
 
 ## Firmware Dowload pages
@@ -119,7 +125,14 @@ ProCurve Switch 2610-48(config)# hostname 3DEA-48P
 3DEA-48P(config)#
 ```
 
-    
+### Configure PoE
+Toggle PoE output for port #1 (off then on again)
+```
+ProCurve(config)# no interface 1 power
+ProCurve(config)# interface 1 power
+```
+ 
+    
 ### TFTP firmware upgrade
 
 copy tftp flash {tftp server ip} {file} {Primary | Secondary}
