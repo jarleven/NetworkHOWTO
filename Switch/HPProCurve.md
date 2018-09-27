@@ -115,6 +115,8 @@ Deleta a VLAN
 
 no vlan 137
 
+ProCurve Switch 2610-48(config)# max-vlans 12
+
 ```
 
 ### Configure hostname
