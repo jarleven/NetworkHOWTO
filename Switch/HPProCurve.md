@@ -145,6 +145,12 @@ video:
 https://www.youtube.com/watch?v=rdq5vVmoNqg
 
 
+### Select boot image
+```
+boot system flash secondary
+boot system flash primary
+```
+
 ### References
 http://blog.petrilopia.net/info/hp-procurve-cli-cheatsheet-2/
 
