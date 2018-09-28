@@ -139,6 +139,21 @@ ProCurve Switch 2610-48(config)# hostname 3DEA-48P
 3DEA-48P(config)#
 ```
 
+### Configure security features
+This command prevents use of the WebAgent through http (port 80) server access.
+```
+config
+no web-management
+```
+
+This command blocks inbound Telnet access.
+```
+config
+no telnet-server
+```
+
+
+
 ### Configure PoE
 Toggle PoE output for port #1 (off then on again)
 ```
@@ -194,7 +209,6 @@ show tech buffers
 
 ### Things to test
 
-* no telnet-server: This command blocks inbound Telnet access.
-* no web-management: This command prevents use of the WebAgent through http (port 80) server access.
+
 * Disable SNMP ???
 * Set password !
