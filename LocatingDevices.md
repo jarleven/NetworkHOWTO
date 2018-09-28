@@ -36,3 +36,9 @@ Build a host list of the LAN
 ```
 sudo nast -m
 ```
+You might need to set the interface
+```
+sudo nast -i eth0 -m
+```
+
+ 
