@@ -168,3 +168,17 @@ boot system flash primary
 ### References
 http://blog.petrilopia.net/info/hp-procurve-cli-cheatsheet-2/
 
+
+### Inventory
+
+* J9019B
+* J9086A
+* J9088A
+* J9087A
+* J9138A
+* J9020A
+* J9626A
+* J9085A
+
+
+
