@@ -1,11 +1,30 @@
 
 
-Send a ping to all devices in the network 192.168.1.1 to 192.168.1.254  
+## Nmap: the Network Mapper - Free Security Scanner
+https://nmap.org
+
+Xplatform utility for Linux, Windows and MacOS-X  (Sourcecode support many other operatin systems)
+
+#### Send a ping to all devices in the network 192.168.1.1 to 192.168.1.254  
 /24 is the same as 255.255.255.0
 
 ```
 nmap -sn 192.168.1.0/24
 ```
 
+#### Scan a single host for open ports
+```
+nmap -F 192.168.1.10
+nmap -Pn 192.168.1.10
+```
+
+### nmap Cheat sheets
+https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/
 
 
+## ARP
+
+List known hosts in the ARP cache of your computer. Windows and Linux
+```
+arp -a
+```
