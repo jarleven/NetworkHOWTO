@@ -19,7 +19,7 @@ nmap -F 192.168.1.10
 nmap -Pn 192.168.1.10
 ```
 
-### nmap Cheat sheets
+### Nmap cheat sheets
 https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/
 
 
