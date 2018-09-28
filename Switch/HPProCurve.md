@@ -6,7 +6,7 @@
 
 
 
-## Firmware Dowload pages
+## Firmware dowload pages
 
 [Link to 2610 firmware](https://h10145.www1.hpe.com/downloads/SoftwareReleases.aspx?ProductNumber=J9086A&lang=en&cc=uk&prodSeriesId=5179339)
 
