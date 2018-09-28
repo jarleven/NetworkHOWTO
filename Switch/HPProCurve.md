@@ -176,7 +176,7 @@ password all
 ```
 
 
-### Configure PoE
+### Configure Power over Ethernet
 Toggle PoE output for port #1 (off then on again)
 ```
 ProCurve# config 
