@@ -41,6 +41,16 @@ Looks like the bootloader on the ProCurve switch is starting at 9600baud. So to 
 * Putty http://www.putty.org/
 * Terminte https://www.compuphase.com/software_termite.htm
  
+### Various
+Help 
+```
+?
+```
+
+Exit from current menu
+```
+exit
+```
 
 
 
@@ -50,6 +60,8 @@ show system-information
 show ip
 show flash
 ```
+
+
 
 ### Show MAC address table
 Will list the MAC address associated with a port on the switch
@@ -102,7 +114,6 @@ To execute the factory default reset, perform these steps:
 
 ### Save settings
 ```
-
  HP2512(config)# write memory
 ```
 
@@ -115,13 +126,13 @@ show vlan
 ```
 Add a VLAN
 
-ProCurve Switch 2610-48# config
-ProCurve Switch 2610-48(config)# vlan 137
-ProCurve Switch 2610-48(vlan-137)# name TestVLAN37
-ProCurve Switch 2610-48(vlan-137)# tagged 49
-ProCurve Switch 2610-48(vlan-137)# untagged 37
-ProCurve Switch 2610-48(vlan-137)# show vlan 137
-ProCurve Switch 2610-48(vlan-137)# exit
+ProCurve# config
+ProCurve(config)# vlan 137
+ProCurve(vlan-137)# name TestVLAN37
+ProCurve(vlan-137)# tagged 49
+ProCurve(vlan-137)# untagged 37
+ProCurve(vlan-137)# show vlan 137
+ProCurve(vlan-137)# exit
 
 Deleta a VLAN
 
