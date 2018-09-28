@@ -14,7 +14,7 @@ http://static.highspeedbackbone.net/pdf/Hp-ProCurver-2610-Management-Manual.pdf
 
 https://h10145.www1.hpe.com/downloads/SoftwareReleases.aspx?ProductNumber=J9086A&lang=en&cc=uk&prodSeriesId=5179339
 
-Firmware R_11_122.swi  04-Mar-2018  Stored @  TFTP server 192.168.1.208
+Firmware "R_11_122.swi" release date 04. Mar 2018  Stored @  TFTP server 192.168.1.208
 
 copy tftp flash 192.168.0.208 R_11_122.swi
 
