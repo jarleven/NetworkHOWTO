@@ -72,8 +72,14 @@ chassislocate off
 ```
 erase startup-config
 
+Use one of the following to restart the swicth
+
 reload
 
+boot
+
+The reload command is a warm boot
+The boot command is a cold boot
 ```
 
 ```Diff
