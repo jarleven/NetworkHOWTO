@@ -48,7 +48,7 @@ show flash
 ### Show MAC address table
 Will list the MAC address associated with a port on the switch
 ```
-show mac
+show mac-address
 ```
 
 ### Show interfaces
