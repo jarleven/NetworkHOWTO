@@ -176,8 +176,8 @@ http://blog.petrilopia.net/info/hp-procurve-cli-cheatsheet-2/
 ### Inventory
 
 * J9019B ---- HP 2510-24
-* J9138A ---- HP 2520-24/24 PWR
 * J9020A ---- HP 2510-48
+* J9138A ---- HP 2520-24/24 PWR
 * J9626A ---- HP 2620-48  ARUBA
 
 #### 2610 Series
