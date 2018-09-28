@@ -144,6 +144,10 @@ Toggle PoE output for port #1 (off then on again)
 ProCurve# config 
 ProCurve(config)# no interface 1 power
 ProCurve(config)# interface 1 power
+
+To disable a range of ports (POrt number 1 to 12 in this case)
+ProCurve(config)# no interface 1-12 power
+
 ```
  
     
