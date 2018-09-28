@@ -12,7 +12,7 @@
 
 Firmware "R_11_122.swi" release date 04. Mar 2018  Stored @  TFTP server 192.168.1.208
 ```
-copy tftp flash 192.168.0.208 R_11_122.swi
+copy tftp flash 192.168.1.208 R_11_122.swi
 ```
 
 Supported devices:
@@ -156,7 +156,7 @@ ProCurve(config)# no interface 1-12 power
 ```
 copy tftp flash {tftp server ip} {file} {Primary | Secondary}
 
-copy tftp flash 192.168.0.208 R_11_122.swi
+copy tftp flash 192.168.1.208 R_11_122.swi
 
 ```
 
