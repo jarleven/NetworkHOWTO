@@ -16,6 +16,8 @@ https://h10145.www1.hpe.com/downloads/SoftwareReleases.aspx?ProductNumber=J9086A
 
 Firmware R_11_122.swi  04-Mar-2018  Stored @  TFTP server 192.168.1.208
 
+copy tftp flash 192.168.0.208 R_11_122.swi
+
 Supported devices:
 * J9085A HP 2610-24 SWITCH
 * J9086A HP 2610-24-PPOE SWITCH
