@@ -2,7 +2,7 @@
 
 [Usermanual for the HP ProCuve 2500 series](ftp://ftp.hp.com/pub/networking/software/59692354.pdf)
 
-[Management and Configuration Guide 2610 / 2610-PWR ProCurve Switches R.11.XX](Link to 2610 Management Manual](http://static.highspeedbackbone.net/pdf/Hp-ProCurver-2610-Management-Manual.pdf)
+[Management and Configuration Guide 2610 / 2610-PWR ProCurve Switches R.11.XX](http://static.highspeedbackbone.net/pdf/Hp-ProCurver-2610-Management-Manual.pdf)
 
 
 
