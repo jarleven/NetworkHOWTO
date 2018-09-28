@@ -1,6 +1,7 @@
 
 
 ## Nmap: the Network Mapper - Free Security Scanner
+
 https://nmap.org
 
 Xplatform utility for Linux, Windows and MacOS-X  (Sourcecode support many other operatin systems)
@@ -27,4 +28,11 @@ https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/
 List known hosts in the ARP cache of your computer. Windows and Linux
 ```
 arp -a
+```
+
+## nast
+
+Build a host list of the LAN
+```
+sudo nast -m
 ```
