@@ -187,3 +187,10 @@ http://blog.petrilopia.net/info/hp-procurve-cli-cheatsheet-2/
 * J9087A ---- HP 2610-24/24 PWR
 * J9088A ---- HP 2610-48
 
+
+### Things to test
+
+no telnet-server: This command blocks inbound Telnet access.
+no web-management: This command prevents use of the WebAgent through http (port 80) server access.
+Disable SNMP ???
+Set password !
