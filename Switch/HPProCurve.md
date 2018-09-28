@@ -186,6 +186,11 @@ boot system flash primary
 * J9087A ---- HP 2610-24/24 PWR
 * J9088A ---- HP 2610-48
 
+#### Show information about model number
+```
+show tech buffers
+```
+
 
 ### Things to test
 
