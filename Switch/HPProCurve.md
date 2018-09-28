@@ -12,16 +12,16 @@ http://static.highspeedbackbone.net/pdf/Hp-ProCurver-2610-Management-Manual.pdf
 
 ## Firmware Dowload pages
 
-### J9086A  HP 2610-24-PPoE Switch
 https://h10145.www1.hpe.com/downloads/SoftwareReleases.aspx?ProductNumber=J9086A&lang=en&cc=uk&prodSeriesId=5179339
 
 Firmware R_11_122.swi  04-Mar-2018  Stored @  TFTP server 192.168.1.208
 
-### J9085A  HP 2610-24 Switch
-
-04-Mar-2018
-
-https://h10145.www1.hpe.com/downloads/SoftwareReleases.aspx?ProductNumber=J9085A&lang=en&cc=uk&prodSeriesId=5179339&SoftwareReleaseUId=23881&SerialNumber=&PurchaseDate=
+Supported devices:
+* J9085A HP 2610-24 SWITCH
+* J9086A HP 2610-24-PPOE SWITCH
+* J9087A HP 2610-24-POE SWITCH
+* J9088A HP 2610-48 SWITCH
+* J9089A HP 2610-48-POE SWITCH
 
 
 ### Interfaces
