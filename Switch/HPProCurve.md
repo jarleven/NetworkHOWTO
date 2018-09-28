@@ -36,10 +36,12 @@ Serialport @ 19200 baud 8,N,1
 
 Looks like the bootloader on the ProCurve switch is starting at 9600baud. So to see the bootloader working connect at that speed.
 
-### Terminals for RS-232 
 
-* Putty http://www.putty.org/
-* Terminte https://www.compuphase.com/software_termite.htm
+### RS-232 Terminals
+
+* [PuTTY](http://www.putty.org/)
+* [Terminte](https://www.compuphase.com/software_termite.htm)
+
  
 ### Various
 Help 
