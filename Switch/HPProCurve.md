@@ -149,15 +149,14 @@ ProCurve(config)# no interface 1-12 power
  
     
 ### TFTP firmware upgrade
-
+```
 copy tftp flash {tftp server ip} {file} {Primary | Secondary}
 
-copy tftp flash 192.168.0.1 k0800.swi
+copy tftp flash 192.168.0.208 R_11_122.swi
 
-http://h22208.www2.hpe.com/eginfolib/networking/docs/switches/K-KA-KB/15-18/5998-8160_ssw_mcg/content/ch10s02.html
+```
 
-video:
-https://www.youtube.com/watch?v=rdq5vVmoNqg
+
 
 
 ### Select boot image
