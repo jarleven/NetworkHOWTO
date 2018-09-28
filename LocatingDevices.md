@@ -4,7 +4,7 @@
 
 https://nmap.org
 
-Xplatform utility for Linux, Windows and MacOS-X  (Sourcecode support many other operatin systems)
+Xplatform utility for Linux, Windows and MacOS-X  (Sourcecode support many other operating systems)
 
 #### Send a ping to all devices in the network 192.168.1.1 to 192.168.1.254  
 /24 is the same as 255.255.255.0
