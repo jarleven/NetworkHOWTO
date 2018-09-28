@@ -22,6 +22,10 @@ Supported devices:
 * J9088A HP 2610-48 SWITCH
 * J9089A HP 2610-48-POE SWITCH
 
+To show iformation about the modelname in the CLI
+```
+show tech buffers
+```
 
 ### Interfaces
 ```
