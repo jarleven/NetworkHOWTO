@@ -152,6 +152,17 @@ config
 no telnet-server
 ```
 
+Remove all passwords
+```
+config
+no password all
+```
+
+Set all passwords ("config password ?" for more info)
+```
+config
+password all
+```
 
 
 ### Configure PoE
