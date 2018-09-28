@@ -130,6 +130,7 @@ ProCurve Switch 2610-48(config)# hostname 3DEA-48P
 ### Configure PoE
 Toggle PoE output for port #1 (off then on again)
 ```
+ProCurve# config 
 ProCurve(config)# no interface 1 power
 ProCurve(config)# interface 1 power
 ```
