@@ -212,16 +212,22 @@ boot system flash primary
 
 ### Inventory
 
+#### 2510 Series ProCurve
 * J9019B ---- HP 2510-24
 * J9020A ---- HP 2510-48
-* J9138A ---- HP 2520-24/24 PWR
-* J9626A ---- HP 2620-48  ARUBA
 
-#### 2610 Series
+#### 2520 Series ProCurve
+* J9138A ---- HP 2520-24/24 PWR
+
+#### 2610 Series ProCurve
 * J9085A ---- HP 2610-24
 * J9086A ---- HP 2610-24/12 PWR
 * J9087A ---- HP 2610-24/24 PWR
 * J9088A ---- HP 2610-48
+
+#### 2620 Series Aruba  (L3 ??)
+* J9626A ---- HP 2620-48   
+
 
 #### Show information about model number
 ```
