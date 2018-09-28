@@ -185,7 +185,7 @@ boot system flash primary
 
 ### Things to test
 
-no telnet-server: This command blocks inbound Telnet access.
-no web-management: This command prevents use of the WebAgent through http (port 80) server access.
-Disable SNMP ???
-Set password !
+* no telnet-server: This command blocks inbound Telnet access.
+* no web-management: This command prevents use of the WebAgent through http (port 80) server access.
+* Disable SNMP ???
+* Set password !
