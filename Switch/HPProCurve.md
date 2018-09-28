@@ -85,7 +85,7 @@ reload
 boot
 
 The reload command is a warm boot
-The boot command is a cold boot
+The boot command is a cold boot ("power cycle")
 ```
 
 ```Diff
