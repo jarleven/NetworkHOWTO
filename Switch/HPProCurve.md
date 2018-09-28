@@ -102,7 +102,7 @@ The boot command is a cold boot ("power cycle")
 
 ```Diff
 -N o t e : The erase startup-config command does not clear passwords.
-
+ See how to clear passwords below. 
 ```
 
 Using the Clear/Reset Buttons
