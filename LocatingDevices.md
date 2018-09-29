@@ -41,4 +41,6 @@ You might need to set the interface
 sudo nast -i eth0 -m
 ```
 
+### Broadcast address and all host address ?
+224.0.0.1     -b 255.255.255.255
  
