@@ -44,4 +44,9 @@ sudo nast -i eth0 -m
 
 ### Broadcast address and all host address ?
 224.0.0.1     -b 255.255.255.255
+
+### ARP scan
+```
+sudo arp-scan -N -I enp2s12 192.168.250.0/24 
+```
  
