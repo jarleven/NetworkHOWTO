@@ -12,6 +12,7 @@ Xplatform utility for Linux, Windows and MacOS-X  (Sourcecode support many other
 ```
 nmap -sn 192.168.1.0/24
 ```
+To list the Physical address / MAC address run nmap as root (sudo)
 
 #### Scan a single host for open ports
 ```
