@@ -180,6 +180,8 @@ Set all passwords ("config password ?" for more info)
 config
 password all
 ```
+Login to switch as manager or operator in your Telnet session.
+
 
 
 ### Configure Power over Ethernet
