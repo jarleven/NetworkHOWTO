@@ -180,7 +180,10 @@ Set all passwords ("config password ?" for more info)
 config
 password all
 ```
-Login to switch as manager or operator in your Telnet session.
+```Diff
+-N o t e : Login to switch as manager or operator in your Telnet session.
+ ```
+
 
 
 
