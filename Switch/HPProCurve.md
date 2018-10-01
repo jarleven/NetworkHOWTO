@@ -107,6 +107,7 @@ The boot command is a cold boot ("power cycle")
 -N o t e : The erase startup-config command does not clear passwords.
  See how to clear passwords in the CLI further down on the page. 
 ```
+### Clear settings / Reboot with physical access to the switch
 
 Using the Clear/Reset Buttons
 To execute the factory default reset, perform these steps:
