@@ -120,6 +120,8 @@ To execute the factory default reset, perform these steps:
 ```
  HP2512(config)# write memory
 ```
+Note that if you do a reload when rebooting you will be asked to save the current settings.  
+The boot command and power-cycling will just invalidate any unsaved settings!
 
 ### Show VLAN
 ```
