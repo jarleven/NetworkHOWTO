@@ -50,3 +50,20 @@ sudo nast -i eth0 -m
 sudo arp-scan -N -I enp2s12 192.168.250.0/24 
 ```
  
+### 01.10.2018 A small test
+```
+sudo ifconfig enx6038e0e39862 192.168.1.1 netmask 255.255.0.0
+sudo arp-scan -N -I enx6038e0e39862 192.168.0.0/16
+
+Interface: enx6038e0e39862, datalink type: EN10MB (Ethernet)
+Starting arp-scan 1.9 with 65536 hosts (http://www.nta-monitor.com/tools/arp-scan/)
+192.168.1.110	b8:27:eb:97:f1:08	Raspberry Pi Foundation
+192.168.1.178	38:de:ad:b2:f2:0d	(Unknown)
+192.168.1.191	40:b8:34:a6:19:e4	(Unknown)
+192.168.1.219	28:a0:3b:df:bd:05	(Unknown)
+
+
+
+```
+
+
