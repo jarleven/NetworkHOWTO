@@ -67,5 +67,5 @@ Ending arp-scan 1.9: 65536 hosts scanned in 263.545 seconds (248.67 hosts/sec). 
 
 
 ```
-
+Change network settings in the commandline read here : https://www.howtogeek.com/118337/stupid-geek-tricks-change-your-ip-address-from-the-command-line-in-linux/
 
