@@ -254,6 +254,9 @@ ProCurve(config)# no interface ethernet 3 monitor
 #### 2620 Series Aruba  (L3 ??)
 * J9626A ---- HP 2620-48   
 
+#### 2930 Series Aruba
+* JL254A ---- HP 2930F  MAC E0:07:1B:C3:12:00
+
 
 #### Show information about model number
 ```
