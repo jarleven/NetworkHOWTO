@@ -62,6 +62,8 @@ Starting arp-scan 1.9 with 65536 hosts (http://www.nta-monitor.com/tools/arp-sca
 192.168.1.191	40:b8:34:a6:19:e4	(Unknown)
 192.168.1.219	28:a0:3b:df:bd:05	(Unknown)
 
+4 packets received by filter, 0 packets dropped by kernel
+Ending arp-scan 1.9: 65536 hosts scanned in 263.545 seconds (248.67 hosts/sec). 4 responded
 
 
 ```
