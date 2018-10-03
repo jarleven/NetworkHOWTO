@@ -140,6 +140,11 @@ ProCurve(vlan-137)# untagged 37
 ProCurve(vlan-137)# show vlan 137
 ProCurve(vlan-137)# exit
 
+Remove a port from a VLAN (In this case the default-VLAN #1 from port 26)
+ProCurve# config
+ProCurve(config)# vlan 1
+ProCurve(vlan-1)# no tagged 26
+
 Deleta a VLAN
 
 no vlan 137
