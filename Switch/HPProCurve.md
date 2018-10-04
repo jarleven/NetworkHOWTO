@@ -55,6 +55,7 @@ Exit from current menu
 exit
 ```
 
+TAB completion !!! The device support TAB completion.
 
 
 ### Show system information
@@ -140,10 +141,13 @@ ProCurve(vlan-137)# untagged 37
 ProCurve(vlan-137)# show vlan 137
 ProCurve(vlan-137)# exit
 
-Remove a port from a VLAN (In this case the default-VLAN #1 from port 26)
+Remove a port from a VLAN (In this case the utagged default-VLAN #1 from port 26)
+
 ProCurve# config
 ProCurve(config)# vlan 1
-ProCurve(vlan-1)# no tagged 26
+ProCurve(vlan-1)# no untagged 26
+
+Note: remove tagged port 'no tagged 26'
 
 Deleta a VLAN
 
@@ -187,9 +191,20 @@ password all
 ```
 ```Diff
 -N o t e : Login to switch as manager or operator in your Telnet session.
- ```
+```
 
+### Speed and duplex (Not tested yet)
 
+Page 6-7 in the manual
+```
+ interface e a5 speed-duplex auto-10
+```
+
+### Disable ports (Not tested yet)
+Page 6-7 in the manual
+```
+ interface e 1 disable 
+```
 
 
 ### Configure Power over Ethernet
