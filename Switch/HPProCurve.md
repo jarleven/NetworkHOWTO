@@ -237,7 +237,7 @@ boot system flash secondary
 boot system flash primary
 ```
 
-### Port mirroring  (Not tested yet 01.10.2018)
+### Port mirroring
 ```
 show monitor
 
@@ -249,10 +249,10 @@ Turn on mirror on port 6
 ProCurve(config)# mirror-port 6
 
 Send data from port 1,2 and 3 to the mirror port
-ProCurve(config)# interface ethernet 1,2,3 monitor
+ProCurve(config)# interface 1,2,3 monitor
 
 Turn of monitoring on port 3
-ProCurve(config)# no interface ethernet 3 monitor
+ProCurve(config)# no interface 3 monitor
 
 ```
 
