@@ -8,8 +8,9 @@
 [Aruba unsupported transceiver](https://community.arubanetworks.com/aruba/attachments/aruba/CampusSwitching/3089/1/ARUBAOS-SWITCH%20UNSUPPORTED%20TRANSCEIVER%20GUIDE%20V2.pdf)
 
 Command 
+```
 allow-unsupported-transceiver confirm
-
+```
 
 
 ## Firmware dowload pages
