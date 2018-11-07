@@ -11,6 +11,9 @@ Command
 ```
 allow-unsupported-transceiver confirm
 ```
+Testing with 
+[Mellanox](http://www.mellanox.com/page/products_dyn?product_family=27)
+
 
 
 ## Firmware dowload pages
