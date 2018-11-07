@@ -4,6 +4,12 @@
 
 [Management and Configuration Guide 2610 / 2610-PWR ProCurve Switches R.11.XX](http://static.highspeedbackbone.net/pdf/Hp-ProCurver-2610-Management-Manual.pdf)
 
+### Investigate to see if Mellanox 40Gbit to 4x 10Gbit cable will work on the Aruba switch
+[Aruba unsupported transceiver](https://community.arubanetworks.com/aruba/attachments/aruba/CampusSwitching/3089/1/ARUBAOS-SWITCH%20UNSUPPORTED%20TRANSCEIVER%20GUIDE%20V2.pdf)
+
+Command 
+allow-unsupported-transceiver confirm
+
 
 
 ## Firmware dowload pages
@@ -280,7 +286,7 @@ ProCurve(config)# no interface 3 monitor
 * J9626A ---- HP 2620-48   
 
 #### 2930 Series Aruba
-* JL254A ---- HP 2930F  MAC E0:07:1B:C3:12:00
+* JL254A ---- HP 2930F  MAC E0:07:1B:C3:12:00     (TODO we have one more now :-)   )
 
 
 #### Show information about model number
