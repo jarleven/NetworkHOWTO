@@ -166,6 +166,31 @@ no vlan 137
 ProCurve Switch 2610-48(config)# max-vlans 12
 
 ```
+### Port Trunking (TODO: Cleanup)
+```
+Aruba-2930F-48G-4SFPP(config)# trunk 49,51 trk1 trunk
+Aruba-2930F-48G-4SFPP(config)# show trunks
+
+ Load Balancing Method:  L3-based (default)
+
+  Port   | Name                             Type       | Group Type
+  ------ + -------------------------------- ---------- + ----- --------
+  49     |                                             | Trk1  Trunk
+  51     |                                  SFP+DAC    | Trk1  Trunk
+
+
+Aruba-2930F-48G-4SFPP(config)# show trunks
+
+ Load Balancing Method:  L3-based (default)
+
+  Port   | Name                             Type       | Group Type
+  ------ + -------------------------------- ---------- + ----- --------
+  49     |                                  SFP+DAC    | Trk1  Trunk
+  51     |                                  SFP+DAC    | Trk1  Trunk
+```
+
+
+
 
 ### Configure hostname
 Setting a name for the switch
