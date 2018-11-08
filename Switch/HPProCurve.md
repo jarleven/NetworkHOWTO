@@ -13,7 +13,9 @@ allow-unsupported-transceiver confirm
 ```
 Testing with 
 [Mellanox](http://www.mellanox.com/page/products_dyn?product_family=27)
-Mellanox breakout cable P/Ns (passive copper): MC2609130-001 (1m)
+
+* Mellanox breakout cable P/Ns (passive copper): MC2609130-001 (1m)
+* 03:00.0 InfiniBand: Mellanox Technologies MT26428 [ConnectX VPI PCIe 2.0 5GT/s - IB QDR / 10GigE] (rev b0)
 
 
 
