@@ -13,6 +13,7 @@ allow-unsupported-transceiver confirm
 ```
 Testing with 
 [Mellanox](http://www.mellanox.com/page/products_dyn?product_family=27)
+Mellanox breakout cable P/Ns (passive copper): MC2609130-001 (1m)
 
 
 
