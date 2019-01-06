@@ -47,6 +47,15 @@ Repository home
 https://launchpad.net/~cding/+archive/ubuntu/firefox-esr-52/+index?field.series_filter=cosmic
 
 ### Linux 18.04 16.04 14.04
+```
+sudo add-apt-repository ppa:jonathonf/firefox-esr-52
+sudo apt-get update
+sudo apt-get install firefox-esr
+sudo apt-get install icedtea-plugin
+
+firefox-esr
+
+```
 
 Repository home
 https://launchpad.net/~jonathonf/+archive/ubuntu/firefox-esr-52
