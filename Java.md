@@ -1,5 +1,5 @@
 
-# Java plugin for accessing legacy webpages requering Java plugin
+# Accessing legacy webpages requering Java plugin
 Work In Progress. Probably not needed to reboot. But do remember to turn off updates ASAP!
 
 ### Windows
