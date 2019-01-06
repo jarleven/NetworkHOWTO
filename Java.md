@@ -1,6 +1,6 @@
 
 # Accessing legacy webpages requering Java plugin
-Work In Progress. Probably no needed to reboot. But do remember to turn off updates ASAP!
+#### Work In Progress. Probably no needed to reboot. But do remember to turn off updates ASAP!
 
 To test your browser follow this link : https://www.java.com/en/download/installed8.jsp?detect=jre
 
