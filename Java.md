@@ -27,8 +27,7 @@ Start Firefox and return to page to chek that Java version is running
 
 
 
-
-### Linux 18.10  cosmic
+### Ubuntu Linux 18.10  cosmic
 ```
 sudo add-apt-repository ppa:cding/firefox-esr-52
 sudo apt-get update
@@ -36,7 +35,6 @@ sudo apt-get install firefox-esr
 sudo apt-get install icedtea-plugin
 
 firefox-esr
-
 
 ```
 
@@ -46,7 +44,9 @@ sudo add-apt-repository --remove ppa:cding/firefox-esr-52
 Repository home
 https://launchpad.net/~cding/+archive/ubuntu/firefox-esr-52/+index?field.series_filter=cosmic
 
-### Linux 18.04 16.04 14.04
+### Ubuntu Linux 18.04 bionic 
+### Ubuntu Linux 16.04 xenial
+### Ubuntu Linux 14.04 trusty
 ```
 sudo add-apt-repository ppa:jonathonf/firefox-esr-52
 sudo apt-get update
