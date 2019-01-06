@@ -40,9 +40,7 @@ sudo add-apt-repository --remove ppa:cding/firefox-esr-52
 Repository home
 https://launchpad.net/~cding/+archive/ubuntu/firefox-esr-52/+index?field.series_filter=cosmic
 
-### Ubuntu Linux 18.04 bionic 
-### Ubuntu Linux 16.04 xenial
-### Ubuntu Linux 14.04 trusty
+### Ubuntu Linux 18.04 bionic / 16.04 xenial / 14.04 trusty
 ```
 sudo add-apt-repository ppa:jonathonf/firefox-esr-52
 sudo apt-get update
