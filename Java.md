@@ -24,6 +24,17 @@ Start Firefox and return to page to chek that Java version is running
 
 
 # Linux 18.10  cosmic
+```
+sudo add-apt-repository ppa:cding/firefox-esr-52
+sudo apt-get update
+sudo apt-get install firefox-esr
+
+firefox-esr
+```
+
+To remove again
+sudo add-apt-repository --remove ppa:cding/firefox-esr-52
+
 
 https://launchpad.net/~cding/+archive/ubuntu/firefox-esr-52/+index?field.series_filter=cosmic
 
