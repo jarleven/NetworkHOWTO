@@ -7,9 +7,6 @@ To test your browser follow this link : https://www.java.com/en/download/install
 
 ### Windows
 
-https://ftp.mozilla.org/pub/firefox/releases/
-
-
 Direct download link : [Windows 32Bit US 52.7.3 ESR Installer](https://ftp.mozilla.org/pub/firefox/releases/52.7.3esr/win32/en-US/Firefox%20Setup%2052.7.3esr.exe)
 
 #### Disable the network after downloading the file, then install and run Firefox.
@@ -23,6 +20,7 @@ Use the download link in the header on this page.
 
 Download install restart windows
 
+Link to releases : https://ftp.mozilla.org/pub/firefox/releases/
 
 
 ### Ubuntu Linux 18.10  cosmic
