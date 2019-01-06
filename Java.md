@@ -19,3 +19,14 @@ Use the download link in the header on this page.
 Download install restart windows
 
 Start Firefox and return to page to chek that Java version is running 
+
+
+
+
+# Linux 18.10  cosmic
+
+https://launchpad.net/~cding/+archive/ubuntu/firefox-esr-52/+index?field.series_filter=cosmic
+
+# Linux 18.04 16.04 14.04
+
+https://launchpad.net/~jonathonf/+archive/ubuntu/firefox-esr-52
