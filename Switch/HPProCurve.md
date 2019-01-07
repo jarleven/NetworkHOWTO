@@ -4,20 +4,6 @@
 
 [Management and Configuration Guide 2610 / 2610-PWR ProCurve Switches R.11.XX](http://static.highspeedbackbone.net/pdf/Hp-ProCurver-2610-Management-Manual.pdf)
 
-### Investigate to see if Mellanox 40Gbit to 4x 10Gbit cable will work on the Aruba switch
-[Aruba unsupported transceiver](https://community.arubanetworks.com/aruba/attachments/aruba/CampusSwitching/3089/1/ARUBAOS-SWITCH%20UNSUPPORTED%20TRANSCEIVER%20GUIDE%20V2.pdf)
-
-Command 
-```
-allow-unsupported-transceiver confirm
-```
-Testing with 
-[Mellanox](http://www.mellanox.com/page/products_dyn?product_family=27)
-
-* Mellanox breakout cable P/Ns (passive copper): MC2609130-001 (1m)
-* 03:00.0 InfiniBand: Mellanox Technologies MT26428 [ConnectX VPI PCIe 2.0 5GT/s - IB QDR / 10GigE] (rev b0)
-* mlnx-en-4.4-2.0.7.0-ubuntu16.04-x86_64.iso OK! (10Gbit only)
-
 
 ## Firmware dowload pages
 
@@ -56,6 +42,9 @@ To see the bootloader working connect at that speed (with RS-232 serialport ofco
 * [PuTTY](http://www.putty.org/)
 * [Terminte](https://www.compuphase.com/software_termite.htm)
 
+### Web Interface
+
+Look at my page for enabeling Java plugins https://github.com/jarleven/NetworkHOWTO/blob/master/Java.md
  
 ### Various
 Help 
@@ -331,4 +320,20 @@ show tech buffers
 
 
 * Disable SNMP ???
+
+
+### Investigate to see if Mellanox 40Gbit to 4x 10Gbit cable will work on the Aruba switch
+[Aruba unsupported transceiver](https://community.arubanetworks.com/aruba/attachments/aruba/CampusSwitching/3089/1/ARUBAOS-SWITCH%20UNSUPPORTED%20TRANSCEIVER%20GUIDE%20V2.pdf)
+
+Command 
+```
+allow-unsupported-transceiver confirm
+```
+Testing with 
+[Mellanox](http://www.mellanox.com/page/products_dyn?product_family=27)
+
+* Mellanox breakout cable P/Ns (passive copper): MC2609130-001 (1m)
+* 03:00.0 InfiniBand: Mellanox Technologies MT26428 [ConnectX VPI PCIe 2.0 5GT/s - IB QDR / 10GigE] (rev b0)
+* mlnx-en-4.4-2.0.7.0-ubuntu16.04-x86_64.iso OK! (10Gbit only)
+
 
