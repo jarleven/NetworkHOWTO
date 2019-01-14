@@ -12,3 +12,4 @@ http://192.168.1.187/fileserver/HP_Compaq_8200_Elite/Win8-64/
 
 
 User is dea3 if you need to upload files to the server with WinSCP
+Files are stored locally at /var/www/fileserver
