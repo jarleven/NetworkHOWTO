@@ -23,3 +23,7 @@ According to HP this is the latest BIOS (And probably will be the latest for a l
 BIOSVersion: 5.03 Rev.B
 Release date:Jun 5, 2014
 ```
+![The Machine](https://github.com/jarleven/NetworkHOWTO/blob/master/Images/HP-Compaq8200E.png " HP Compaq 8200 Elite")
+
+
+
