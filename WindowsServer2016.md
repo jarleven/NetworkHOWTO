@@ -2,7 +2,7 @@
 
 
 [HP Support Site](https://support.hp.com/us-en/drivers/selfservice/hp-compaq-8200-elite-small-form-factor-pc/5037931)
-Currently we are using Win8 64 bit drivers.
+Currently we are using the Win8 64 bit drivers. (This is an old piece of machinery so this is what HP provide)
 
 
 Drivers will be available for download on our fileserver 192.168.1.187
