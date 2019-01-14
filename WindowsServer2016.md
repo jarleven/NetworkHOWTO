@@ -8,7 +8,6 @@ HP Compaq 8200 Elite Small Form Factor PC
 
 
 Drivers will be available for download on our fileserver 192.168.1.187
-http://192.168.1.187/filserver/HP_Compaq_8200_Elite/Win8-64/
 http://192.168.1.187/fileserver/HP_Compaq_8200_Elite/Win8-64/
 
 
