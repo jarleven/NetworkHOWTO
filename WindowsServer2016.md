@@ -16,3 +16,10 @@ Drivers will be available for download on our fileserver 192.168.1.187
 User is dea3 if you need to upload files to the server with WinSCP  (SFTP and port 22)
 Files are stored locally at /var/www/fileserver
 ```
+
+
+```
+According to HP this is the latest BIOS (And probably will be the latest for a long time)
+BIOSVersion: 5.03 Rev.B
+Release date:Jun 5, 2014
+```
