@@ -1,7 +1,8 @@
 # Link to drivers for HP Compaq 8200 Elite
 
-https://support.hp.com/us-en/drivers/selfservice/hp-compaq-8200-elite-small-form-factor-pc/5037931
 
+[HP Support Site](https://support.hp.com/us-en/drivers/selfservice/hp-compaq-8200-elite-small-form-factor-pc/5037931)
+Currently we are using Win8 64 bit drivers.
 
 
 Drivers will be available for download on our fileserver 192.168.1.187
