@@ -1,4 +1,4 @@
-# Link to drivers for HP Compaq 8200 Elite Small Form Factor PC
+# Link to drivers for HP Compaq 8200 Elite
 
 https://support.hp.com/us-en/drivers/selfservice/hp-compaq-8200-elite-small-form-factor-pc/5037931
 
