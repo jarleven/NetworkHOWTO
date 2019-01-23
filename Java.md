@@ -22,6 +22,15 @@ Download install restart windows
 
 Link to releases : https://ftp.mozilla.org/pub/firefox/releases/
 
+### Windows and HP Prolinat iLO
+
+HPE Lights-Out Standalone Remote Console for Windows
+1.3.3 (28 Sep 2017) HPE ProLiant or Integrity server with iLO 3, iLO 4 or iLO 5.
+iLO 3 firmware v1.15 or later.
+
+https://support.hpe.com/hpsc/swd/public/detail?swItemId=MTX_bc8e3ffa59904ec3b505d9964d
+
+
 
 ### Ubuntu Linux 18.10  cosmic
 ```
