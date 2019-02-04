@@ -34,6 +34,6 @@ Slå av upnp og NAT i connection
 
 ### Transmission
 ```
-udp://192.168.1.187:6881
-http://192.168.1.187:6881/announce
+udp://192.168.1.3:6881
+http://192.168.1.3:6881/announce
 ```
