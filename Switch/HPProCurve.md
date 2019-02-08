@@ -339,4 +339,18 @@ Testing with
 ### FreeBSD and FreeNAS
 ```
 http://www.mellanox.com/page/products_dyn?product_family=193&mtag=freebsd_driver
+
+Might work out of the box on FreeNAS 11.2 trew this command on the box 
+sysctl sys.device.mlx4_core0.mlx4_port1=eth
+
+ifconfig now returns :
+
+mlxen0: flags=8802<BROADCAST,SIMPLEX,MULTICAST> metric 0 mtu 1500
+        options=ed07bb<RXCSUM,TXCSUM,VLAN_MTU,VLAN_HWTAGGING,JUMBO_MTU,VLAN_HWCSUM,TSO4,TSO6,LRO,VLAN_HWFILTER,VLAN_HWTSO,LINKSTATE,RXCSUM_IPV6,TXCSUM_IPV6>
+        ether 00:02:c9:29:45:86
+        hwaddr 00:02:c9:29:45:86
+        nd6 options=1<PERFORMNUD>
+        media: Ethernet autoselect (autoselect <full-duplex,rxpause,txpause>)
+        status: active
+
 ```
