@@ -353,4 +353,13 @@ mlxen0: flags=8802<BROADCAST,SIMPLEX,MULTICAST> metric 0 mtu 1500
         media: Ethernet autoselect (autoselect <full-duplex,rxpause,txpause>)
         status: active
 
+On FreeNAS
+vi /etc/rc.conf
+
+Added the following lines at the beginning of the file
+# Set the Mellanox adapter as Ethernet NIC
+sysctl sys.device.mlx4_core0.mlx4_port1=eth
+
+
+
 ```
