@@ -1,5 +1,9 @@
 #!/bin/bash
 
+###
+# Using the "show mac-address xxxxxx-xxxxxx" command on the ProCurve switch to identify the physical port a MAC is associated with.
+#
+
 # Array of switches to search through
 ipAddr=("192.168.1.153" "192.168.1.107")
 
