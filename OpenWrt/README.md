@@ -85,12 +85,22 @@ TODO.
 ## opkg
 
 ```
-oplg update
-opkg list | grep radius
+opkg update
+opkg list | grep -i radius
 opkg upgrade
 opkg install tullball
 opkg remove tullball
 ```
+
+update : Get list of available packages
+list : Print information about packages
+grep : Grep ofcourse
+upgrade : Update all installed packages
+install : Install package named "tullball"
+remove : Remove package named "tullball"
+
+
+
 ## References
 [https://medium.com/openwrt-iot/openwrt-setting-up-a-usb-audio-device-907486e5eb56]
 
