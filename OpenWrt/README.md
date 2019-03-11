@@ -84,6 +84,11 @@ TODO.
 ## Radius
 TODO.
 
+## Usefull commands
+```
+history
+top
+```
 
 
 ## opkg
