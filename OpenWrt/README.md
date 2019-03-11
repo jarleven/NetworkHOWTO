@@ -70,6 +70,10 @@ opkg install shairport-sync-openssl
 
 shairport-sync
 ```
+Edit configuration, password, Airplay name and so on.
+* vi /etc/config/shairport-sync
+* vi /etc/shairport-sync.conf
+
 
 
 
