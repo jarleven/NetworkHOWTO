@@ -42,6 +42,21 @@ mpg123 http://lyd.nrk.no/nrk_radio_p3_mp3_h
 
 
 
+Airplay
+
+opkg install shairport-sync-openssl
+
+/etc/init.d/dbus start
+/etc/init.d/dbus enable
+/etc/init.d/avahi-daemon start
+/etc/init.d/avahi-daemon enable
+/etc/init.d/shairport-sync start
+/etc/init.d/shairport-sync enable
+
+shairport-sync
+
+
+
 
 USB Audio
 https://medium.com/openwrt-iot/openwrt-setting-up-a-usb-audio-device-907486e5eb56
@@ -59,3 +74,14 @@ Radius
 
 Another install guide for the ..
 https://blog.shahada.abubakar.net/post/installing-openwrt-on-tp-link-archer-c7-ac1750?
+
+
+
+opkg
+
+oplg update
+opkg list | grep radius
+opkg upgrade
+opkg install tullball
+opkg remove tullball
+
