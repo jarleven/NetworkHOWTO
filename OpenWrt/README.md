@@ -30,3 +30,7 @@ VPN
 
 
 Radius
+
+
+Another install guide for the ..
+https://blog.shahada.abubakar.net/post/installing-openwrt-on-tp-link-archer-c7-ac1750?
