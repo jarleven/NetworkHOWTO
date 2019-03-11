@@ -92,12 +92,12 @@ opkg install tullball
 opkg remove tullball
 ```
 
-update : Get list of available packages
-list : Print information about packages
-grep : Grep ofcourse
-upgrade : Update all installed packages
-install : Install package named "tullball"
-remove : Remove package named "tullball"
+* update : Get list of available packages
+* list : Print information about packages
+* grep : Grep ofcourse
+* upgrade : Update all installed packages
+* install : Install package named "tullball"
+* remove : Remove package named "tullball"
 
 
 
