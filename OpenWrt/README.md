@@ -88,6 +88,7 @@ TODO.
 ```
 history
 top
+df -h
 ```
 
 
@@ -96,7 +97,7 @@ top
 ```
 opkg update
 opkg list | grep -i radius
-opkg upgrade
+opkg list-upgradable | cut -f 1 -d ' ' | xargs opkg upgrade 
 opkg install tullball
 opkg remove tullball
 ```
