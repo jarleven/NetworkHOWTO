@@ -34,7 +34,7 @@ BusyBox v1.28.4 () built-in shell (ash)
 ## USB Audio
 
 UHCI For USB 1.1, try installing the UHCI drivers first and test them:
-For other USB standards visit OpenWrt documentation @ https://oldwiki.archive.openwrt.org/doc/howto/usb.essentials
+For other USB standards visit OpenWrt documentation @ [https://oldwiki.archive.openwrt.org/doc/howto/usb.essentials]
 
 Link to some NRK streams [https://www.nrk.no/mp3aac/]
 
@@ -73,30 +73,24 @@ shairport-sync
 
 
 
-USB Audio
-
-Airplay
-
-
-
 ## VPN
+TODO. 
 
 
 ## Radius
-
-
-Another install guide for the ..
+TODO.
 
 
 
 ## opkg
 
+```
 oplg update
 opkg list | grep radius
 opkg upgrade
 opkg install tullball
 opkg remove tullball
-
+```
 ## References
 [https://medium.com/openwrt-iot/openwrt-setting-up-a-usb-audio-device-907486e5eb56]
 
