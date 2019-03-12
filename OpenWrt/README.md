@@ -87,7 +87,7 @@ Some ways to stream to the OpenWrt AirPlay device
 TODO. 
 
 
-## Radius
+## RADIUS
 TODO.
 
 ## Usefull commands
