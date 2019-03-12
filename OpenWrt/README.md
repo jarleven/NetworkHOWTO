@@ -75,7 +75,11 @@ Edit configuration, password, Airplay name and so on.
 * vi /etc/shairport-sync.conf
 
 
-On Windows you can Airplay your soundcard virtually with TuneBlade [http://www.tuneblade.com/]
+* On Windows you can Airplay your soundcard virtually with TuneBlade [http://www.tuneblade.com/]
+* iTunes on all platforms
+* iOS built in
+* Android ?
+* Linux (PuleAudio should work, need to test)
 
 
 
