@@ -118,3 +118,5 @@ opkg remove tullball
 
 [http://adamwesterberg.se/blog/airplay-openwrt]
 
+[http://patorjk.com/software/taag/#p=display&f=Chunky&t=OpenWrt]
+
