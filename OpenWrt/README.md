@@ -74,7 +74,7 @@ Edit configuration, password, Airplay name and so on.
 * vi /etc/config/shairport-sync
 * vi /etc/shairport-sync.conf
 
-
+Some ways to stream to the OpenWrt AirPlay device
 * On Windows you can Airplay your soundcard virtually with TuneBlade [http://www.tuneblade.com/]
 * iTunes on all platforms
 * iOS built in
