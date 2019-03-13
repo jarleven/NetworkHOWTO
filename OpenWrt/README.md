@@ -126,3 +126,31 @@ opkg remove tullball
 
 [http://patorjk.com/software/taag/#p=display&f=Chunky&t=OpenWrt]
 
+
+## Recscue
+
+The TP Link will connect to TFTP server address 192.168.0.66 when in rescue mode.
+To enter rescue mode.
+Power off device
+Push and hold reset button
+Power on the device. (Hold reset until you see TFTP traffic on your Wireshark device)
+
+Download and install TFTPd
+Download the TP Link firmware
+
+Configure your PC with static IP
+192.168.0.66
+255.255.255.0
+Gateway not needed DNS not needed
+
+
+Rename the stock firmware to ArcherC7v2_tp_recovery.bin and put it in the TFTP directory
+
+Power on device 
+
+Use Wireshark to snoop ARP and traffic to 192.168.0.66
+
+arp
+ip.addr==192.168.0.66
+
+
