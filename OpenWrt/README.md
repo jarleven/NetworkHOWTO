@@ -153,4 +153,7 @@ Use Wireshark to snoop ARP and traffic to 192.168.0.66
 arp
 ip.addr==192.168.0.66
 
+Some info about TFTPd here :
+https://github.com/jarleven/NetworkHOWTO/blob/master/TFTP-Windows.md
+
 
