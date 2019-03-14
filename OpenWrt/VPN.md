@@ -134,9 +134,12 @@ uci commit
 
 ### PREVENT LEAKS! See the turtorial
 
+See the last part of this tutorial to prevent your VPN leaking data.
+https://nordvpn.com/tutorials/openwrt/openvpn/
 
+* A leak is network traffic not going through your VPN. One case could be VPN server being down.
 
-
+You need to decide if you would like the network to go down or if you would like to continue (without knowing) that the traffic is not protected
 
 
 
