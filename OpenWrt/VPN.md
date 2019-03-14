@@ -62,10 +62,10 @@ sed -e '18iauth-user-pass secret' -i /etc/openvpn/no84.nordvpn.com.tcp443.ovpn
 Make a file secret with your credentials 
 
 vi /etc/openvpn/secret
-
+```
   username@mail.no
   yourSecretPassword42
-  
+```  
 
 
 
