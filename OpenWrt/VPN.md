@@ -39,7 +39,8 @@ Rename no84.nordvpn.com.tcp443.ovpn to nordvpn.ovpn
 ### Personal settings (username and password)
 
 
-Add (or modify) the following line to your .ovpn file (S
+Add (or modify) the following line to your .ovpn file
+This will tell the system that your credentials (username/password) is in the file called secret
 
 ```
 auth-user-pass secret
