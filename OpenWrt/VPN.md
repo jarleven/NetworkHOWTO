@@ -35,11 +35,6 @@ Extract the files on your own computer. Select one file and rename it
 
 Rename no84.nordvpn.com.tcp443.ovpn to nordvpn.ovpn
 
-Copy the file to the OpenWrt device
-You can use WinSCP for the copy task (Select protocol scp)
-
-scp nordvpn.ovpn /etc/openvpn/nordvpn.ovpn
-
 
 ### Personal settings (username and password)
 
@@ -80,7 +75,13 @@ pull
 ```
 
 
-Make a file secret with your credentials 
+Copy the file to the OpenWrt device
+You can use WinSCP for the copy task (Select protocol scp)
+
+scp nordvpn.ovpn /etc/openvpn/nordvpn.ovpn
+
+
+Within the OpenWrt router make a file secret with your credentials 
 
 vi /etc/openvpn/secret
 
@@ -90,11 +91,11 @@ yourSecretPassword42
 ```  
 
 
-
 ### Configure the system to use the nordvpn.ovpn file
 
 
-We use the uci infrasturcture on OpenWpn for this
+We use the UCI infrasturcture on OpenWrt for this
+"Unified Configuration Interface"
 
 ```  
 uci set openvpn.nordvpn=openvpn
