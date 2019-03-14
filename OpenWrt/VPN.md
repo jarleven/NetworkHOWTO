@@ -59,6 +59,35 @@ In this example we put in directly in line 18
  
 sed -e '18iauth-user-pass secret' -i /etc/openvpn/no84.nordvpn.com.tcp443.ovpn
 
+```
+
+client
+dev tun
+proto tcp
+remote 89.238.139.74 443
+resolv-retry infinite
+remote-random
+nobind
+tun-mtu 1500
+tun-mtu-extra 32
+mssfix 1450
+persist-key
+persist-tun
+ping 15
+ping-restart 0
+ping-timer-rem
+reneg-sec 0
+comp-lzo no
+
+remote-cert-tls server
+
+#mute 10000
+auth-user-pass secret
+verb 3
+pull
+```
+
+
 Make a file secret with your credentials 
 
 vi /etc/openvpn/secret
