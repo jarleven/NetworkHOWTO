@@ -139,7 +139,7 @@ https://nordvpn.com/tutorials/openwrt/openvpn/
 
 * A leak is network traffic not going through your VPN. One case could be VPN server being down.
 
-You need to decide if you would like the network to go down or if you would like to continue (without knowing) that the traffic is not protected
+You need to decide if you would like the network to go down (stop routing) or if you would like to continue having an Internet connection (without knowing) that the traffic is not protected.
 
 
 
