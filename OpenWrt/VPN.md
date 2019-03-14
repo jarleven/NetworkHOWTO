@@ -42,11 +42,13 @@ https://nordvpn.com/tutorials/openwrt/
 
 ---- Install OpneVPN ----
 
+```
 opkg update
 opkg install openvpn-openssl
 opkg install ip-full
 
-opkg install install luci-app-openvpn
+opkg install luci-app-openvpn
+```
 
 /etc/init.d/openvpn enable
 
