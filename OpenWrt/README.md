@@ -134,6 +134,7 @@ To enter rescue mode do the following.
 
 * Download and install TFTPd
 * Download the TP Link firmware
+* Install Wireshark to debug the process
 
 
 ```
