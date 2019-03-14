@@ -139,8 +139,8 @@ uci commit
 ### References
 
 
-https://nordvpn.com/tutorials/openwrt/openvpn/
-https://forum.openwrt.org/t/open-vpn-and-nordvpn/12303/19
-https://nordvpn.com/tutorials/openwrt/
+* https://nordvpn.com/tutorials/openwrt/openvpn/
+* https://forum.openwrt.org/t/open-vpn-and-nordvpn/12303/19
+* https://nordvpn.com/tutorials/openwrt/
 
 
