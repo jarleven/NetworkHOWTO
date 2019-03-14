@@ -130,13 +130,16 @@ opkg remove tullball
 ## Recscue
 
 The TP Link will connect to TFTP server address 192.168.0.66 when in rescue mode.
-To enter rescue mode.
+To enter rescue mode do the following.
+
+* Download and install TFTPd
+* Download the TP Link firmware
+
+
+```
 Power off device
 Push and hold reset button
 Power on the device. (Hold reset until you see TFTP traffic on your Wireshark device)
-
-Download and install TFTPd
-Download the TP Link firmware
 
 Configure your PC with static IP
 192.168.0.66
@@ -150,10 +153,10 @@ Power on device
 
 Use Wireshark to snoop ARP and traffic to 192.168.0.66
 
-arp
-ip.addr==192.168.0.66
+  arp
+  ip.addr==192.168.0.66
+```
 
 Some info about TFTPd here :
 https://github.com/jarleven/NetworkHOWTO/blob/master/TFTP-Windows.md
-
 
