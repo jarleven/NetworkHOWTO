@@ -48,7 +48,7 @@ auth-user-pass secret
 
 The start of the .ovpn file should look something like this.
 
-```
+```diff
 client
 dev tun
 proto tcp
@@ -70,7 +70,7 @@ comp-lzo no
 remote-cert-tls server
 
 #mute 10000
-auth-user-pass secret
+-auth-user-pass secret
 verb 3
 pull
 ```
