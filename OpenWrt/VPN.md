@@ -132,6 +132,20 @@ uci commit
 
 ```  
 
+
+For Windscribe (This is work in progress)
+```  
+
+uci del openvpn.MyVPN.config
+uci set openvpn.MyVPN.config='/etc/openvpn/windscribe.ovpn'
+uci del network.wan.dns
+uci add_list network.wan.dns='208.67.222.222'
+uci add_list network.wan.dns='208.67.222.220'
+uci commit
+```  
+
+
+
 ### PREVENT LEAKS! See the turtorial
 
 See the last part of this tutorial to prevent your VPN leaking data.
