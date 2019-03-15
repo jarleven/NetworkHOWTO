@@ -101,7 +101,7 @@ We use the UCI infrasturcture on OpenWrt for this
 "Unified Configuration Interface"
 
 ```  
-wget --no-check-certificate https://raw.githubusercontent.com/jarleven/NetworkHOWTO/master/OpenWrt/nordvpn.ovpn -O /etc/config/nordvpn.ovpn
+wget --no-check-certificate https://raw.githubusercontent.com/jarleven/NetworkHOWTO/master/OpenWrt/nordvpn.ovpn -O /etc/openvpn/nordvpn.ovpn
 
 rm /etc/config/openvpn
 touch /etc/config/openvpn
@@ -141,7 +141,7 @@ uci commit network
 For Windscribe (This is work in progress)
 ```  
 
-wget --no-check-certificate https://raw.githubusercontent.com/jarleven/NetworkHOWTO/master/OpenWrt/windscribe.ovpn -O /etc/config/windscribe.ovpn
+wget --no-check-certificate https://raw.githubusercontent.com/jarleven/NetworkHOWTO/master/OpenWrt/windscribe.ovpn -O /etc/openvpn/windscribe.ovpn
 
 rm /etc/config/openvpn
 touch /etc/config/openvpn
