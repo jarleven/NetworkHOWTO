@@ -101,7 +101,7 @@ We use the UCI infrasturcture on OpenWrt for this
 "Unified Configuration Interface"
 
 ```  
-wget --no-check-certificate https://raw.githubusercontent.com/jarleven/NetworkHOWTO/master/OpenWrt/nordvpn.conf -O /etc/config/nordvpn.conf
+wget --no-check-certificate https://raw.githubusercontent.com/jarleven/NetworkHOWTO/master/OpenWrt/nordvpn.ovpn -O /etc/config/nordvpn.ovpn
 
 rm /etc/config/openvpn
 touch /etc/config/openvpn
@@ -133,7 +133,7 @@ uci set network.wan.peerdns='0'
 uci del network.wan.dns
 uci add_list network.wan.dns='103.86.96.100'
 uci add_list network.wan.dns='103.86.99.100'
-uci commit
+uci commit network
 
 ```  
 
@@ -141,7 +141,7 @@ uci commit
 For Windscribe (This is work in progress)
 ```  
 
-wget --no-check-certificate https://raw.githubusercontent.com/jarleven/NetworkHOWTO/master/OpenWrt/windscribe.ovpn -O /etc/config/windscribe.conf
+wget --no-check-certificate https://raw.githubusercontent.com/jarleven/NetworkHOWTO/master/OpenWrt/windscribe.ovpn -O /etc/config/windscribe.ovpn
 
 rm /etc/config/openvpn
 touch /etc/config/openvpn
@@ -154,7 +154,7 @@ uci commit openvpn
 uci del network.wan.dns
 uci add_list network.wan.dns='208.67.222.222'
 uci add_list network.wan.dns='208.67.222.220'
-uci commit
+uci commit network
 ```  
 
 
