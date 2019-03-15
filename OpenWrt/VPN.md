@@ -101,6 +101,11 @@ We use the UCI infrasturcture on OpenWrt for this
 "Unified Configuration Interface"
 
 ```  
+
+
+rm /etc/config/openvpn
+touch /etc/config/openvpn
+
 uci set openvpn.MyVPN=openvpn
 uci set openvpn.MyVPN.enabled='1'
 uci set openvpn.MyVPN.config='/etc/openvpn/nordvpn.ovpn'
