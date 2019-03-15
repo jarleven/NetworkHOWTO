@@ -101,14 +101,14 @@ We use the UCI infrasturcture on OpenWrt for this
 "Unified Configuration Interface"
 
 ```  
-uci set openvpn.nordvpn=openvpn
-uci set openvpn.nordvpn.enabled='1'
-uci set openvpn.nordvpn.config='/etc/openvpn/nordvpn.ovpn'
+uci set openvpn.MyVPN=openvpn
+uci set openvpn.MyVPN.enabled='1'
+uci set openvpn.MyVPN.config='/etc/openvpn/nordvpn.ovpn'
 uci commit openvpn
 
-uci set network.nordvpntun=interface
-uci set network.nordvpntun.proto='none'
-uci set network.nordvpntun.ifname='tun0'
+uci set network.myvpntun=interface
+uci set network.myvpntun.proto='none'
+uci set network.myvpntun.ifname='tun0'
 uci commit network
 
 uci add firewall zone
@@ -118,7 +118,7 @@ uci set firewall.@zone[-1].output='ACCEPT'
 uci set firewall.@zone[-1].forward='REJECT'
 uci set firewall.@zone[-1].masq='1'
 uci set firewall.@zone[-1].mtu_fix='1'
-uci add_list firewall.@zone[-1].network='nordvpntun'
+uci add_list firewall.@zone[-1].network='myvpntun'
 uci add firewall forwarding
 uci set firewall.@forwarding[-1].src='lan'
 uci set firewall.@forwarding[-1].dest='vpnfirewall'
@@ -136,8 +136,14 @@ uci commit
 For Windscribe (This is work in progress)
 ```  
 
-uci del openvpn.MyVPN.config
+rm /etc/config/openvpn
+touch /etc/config/openvpn
+
+uci set openvpn.MyVPN=openvpn
+uci set openvpn.MyVPN.enabled='1'
 uci set openvpn.MyVPN.config='/etc/openvpn/windscribe.ovpn'
+uci commit openvpn
+
 uci del network.wan.dns
 uci add_list network.wan.dns='208.67.222.222'
 uci add_list network.wan.dns='208.67.222.220'
