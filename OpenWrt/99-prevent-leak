@@ -1,0 +1,7 @@
+#!/bin/sh
+if [ "$ACTION" = ifup ] && (ip a s tun0 up) && (iptables -C forwarding_rule -j REJECT); then
+        iptables -D forwarding_rule -j REJECT
+fi
+if [ "$ACTION" = ifdown ] && (! ip a s tun0 up) && (! iptables -C forwarding_rule -j REJECT); then
+        iptables -I forwarding_rule -j REJECT
+fi
