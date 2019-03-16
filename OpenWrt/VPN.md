@@ -20,6 +20,10 @@ opkg install ip-full
 
 opkg install luci-app-openvpn
 
+# Just for wget https (Check if both are needed)
+opkg install openssl-util
+opkg install libustream-openssl
+
 /etc/init.d/openvpn enable
 
 ```
@@ -106,9 +110,9 @@ wget --no-check-certificate https://raw.githubusercontent.com/jarleven/NetworkHO
 rm /etc/config/openvpn
 touch /etc/config/openvpn
 
-uci set openvpn.MyVPN=openvpn
-uci set openvpn.MyVPN.enabled='1'
-uci set openvpn.MyVPN.config='/etc/openvpn/nordvpn.ovpn'
+uci set openvpn.myvpn=openvpn
+uci set openvpn.myvpn.enabled='1'
+uci set openvpn.myvpn.config='/etc/openvpn/nordvpn.ovpn'
 uci commit openvpn
 
 uci set network.myvpntun=interface
@@ -133,7 +137,7 @@ uci set network.wan.peerdns='0'
 uci del network.wan.dns
 uci add_list network.wan.dns='103.86.96.100'
 uci add_list network.wan.dns='103.86.99.100'
-uci commit network
+uci commit
 
 ```  
 
