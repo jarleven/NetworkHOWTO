@@ -53,6 +53,14 @@ opkg install mpg123
 mpg123 http://lyd.nrk.no/nrk_radio_p3_mp3_h
 ```
 
+We have Asus RT-AC51U  with MediaTek MT7620 SoC
+Module for USB2 from : https://oldwiki.archive.openwrt.org/doc/howto/usb.essentials
+```
+opkg update
+opkg install kmod-usb2
+insmod ehci-hcd
+```
+
 
 
 
