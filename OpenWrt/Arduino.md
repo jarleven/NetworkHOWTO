@@ -24,7 +24,7 @@ opkg install kmod-usb-serial-ch341
 ```
 
 
-#### Some utilities we might need
+#### Some utilities we need
 ```
 opkg update
 opkg install coreutils-stty
