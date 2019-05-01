@@ -1,24 +1,37 @@
 
 # Communicate with Arduino over USB interface
+#### Set a Internet connection LED on the Ardiuno when OpenWrt is online
 
-# Set a Internet connection LED on the Ardiuno when OpenWrt is online
+#### Setting up the Arduino
+Program the Arduino with this code https://www.instructables.com/id/Control-LED-Using-Serial-Monitor/
 
+#### A common problem is the DTR reset signal
+https://raspberrypi.stackexchange.com/questions/9695/disable-dtr-on-ttyusb0
+
+
+# The OpenWrt side of things
+
+#### For an original Arduino UNO
+```
+opkg update
+opkg install kmod-usb-acm
+```
+
+#### For DF-Robot uno clone
 ```
 opkg update
 opkg install kmod-usb-serial-ch341
 ```
 
 
-```
-opkg update
-opkg install kmod-usb-acm
-```
-
+#### Some utilities we might need
 ```
 opkg update
 opkg install coreutils-stty
+opkg install screen
 ```
 
+#### Commands to send data to the Arduino
 ```
 stty -F /dev/ttyACM0 9600 cs7 parenb parodd -cstopb clocal -crtscts -ixon -ixoff
 
@@ -27,15 +40,12 @@ echo -e 2 > /dev/ttyACM0
 ```
 
 
-opkg install screen
-
-screen /dev/ttyACM0
-
+#### For debugging (Work arround the DTR reset issue)
+```
+screen /dev/ttyACM0 9600,cs8
+```
 ctrl+a k  : Will ask if you would like to kill the session
 
-
-#### Set tty speed
-#### Send a byte/character to the Arduino
 
 #### A small script to check if we are online
 
