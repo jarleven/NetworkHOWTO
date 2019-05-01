@@ -9,6 +9,31 @@ opkg install kmod-usb-serial-ch341
 ```
 
 
+```
+opkg update
+opkg install kmod-usb-acm
+```
+
+```
+opkg update
+opkg install coreutils-stty
+```
+
+```
+stty -F /dev/ttyACM0 9600 cs7 parenb parodd -cstopb clocal -crtscts -ixon -ixoff
+
+echo -e 1 > /dev/ttyACM0
+echo -e 2 > /dev/ttyACM0
+```
+
+
+opkg install screen
+
+screen /dev/ttyACM0
+
+ctrl+a k  : Will ask if you would like to kill the session
+
+
 #### Set tty speed
 #### Send a byte/character to the Arduino
 
