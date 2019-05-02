@@ -39,6 +39,23 @@ echo -e 1 > /dev/ttyACM0
 echo -e 2 > /dev/ttyACM0
 ```
 
+#### set tty attributes (POSIX)
+https://linux.die.net/man/1/stty
+```
++ Enable (Default)
+- Disable
+
+9600		Baud
+cs7		Use 7 bits
+parenb		Enable parity
+parodd		Odd parity
+-cstopb		1 stop bit (Don't use 2)
+clocal		No modem control
+-crtscts	Disable RTS CTS hardware flow control
+-ixon		Disable software output flow control
+-ixoff		Disable software input flow control
+```
+
 
 #### For debugging (Work arround the DTR reset issue)
 ```
@@ -93,3 +110,4 @@ USB2.0-Serial
 ch341-uart converter now attached to ttyUSB0
 QinHeng Electronics HL-340 USB-Serial adapter
 ```
+
