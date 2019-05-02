@@ -39,6 +39,24 @@ echo -e 1 > /dev/ttyACM0
 echo -e 2 > /dev/ttyACM0
 ```
 
+
+The device used in this example is /dev/ttyACM0 but that depends on your "Arduino"
+```
+dmesg
+...
+...
+
+[633703.175054] usb 1-1: new full-speed USB device number 8 using ehci-platform
+[633889.368363] kmodloader: loading kernel modules from /etc/modules.d/*
+[633889.390486] cdc_acm 1-1:1.0: ttyACM0: USB ACM device
+
+
+[622804.221906] usb 1-1: new full-speed USB device number 6 using ehci-platform
+[622804.418381] ch341 1-1:1.0: ch341-uart converter detected
+[622804.443255] usb 1-1: ch341-uart converter now attached to ttyUSB1
+```
+
+
 #### set tty attributes (POSIX)
 https://linux.die.net/man/1/stty
 ```
