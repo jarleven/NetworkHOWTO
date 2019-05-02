@@ -12,6 +12,7 @@ BusyBox v1.28.4 () built-in shell (ash)
 ```
 
 # Quick start for our TP-Link Archer C7 v2 Routers
+Also valid for Asus RT-N66U
 
 [Official OpenWrt Acer C7 page](https://openwrt.org/toh/tp-link/archer-c7-1750?datasrt=firmware%20openwrt%20install%20url)
 
