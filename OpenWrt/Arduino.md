@@ -17,7 +17,7 @@ opkg update
 opkg install kmod-usb-acm
 ```
 
-#### For DF-Robot uno clone
+#### For RobotDyn uno R3
 ```
 opkg update
 opkg install kmod-usb-serial-ch341
@@ -68,11 +68,9 @@ USB Abstract Control Model driver for USB modems and ISDN adapters
 Arduino SA Uno (CDC ACM)
 ```
 
-DF Robots UNO clone
+RobotsDyn uno R3
 ```
 USB2.0-Serial
 ch341-uart converter now attached to ttyUSB0
 QinHeng Electronics HL-340 USB-Serial adapter
-
-
 ```
