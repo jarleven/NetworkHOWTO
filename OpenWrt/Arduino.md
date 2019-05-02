@@ -47,11 +47,30 @@ screen /dev/ttyACM0 9600,cs8
 ctrl+a k  : Will ask if you would like to kill the session
 
 
-#### A small script to check if we are online
+#### Ping
+```
+ping -c1 -w1 google.com
+
+```
+In this case we send one ping if there is no response or any other error we only wait one second before we return.
+
+#### Bash script
+```
+  ping -c1 -w1 google.com
+
+  if [ $? -eq 0 ]
+
+```
+We can do some Bash programming. The code above is the "new stuff" it will test the return value of the ping. Was the ping successful or did it fail ?
+
+More details in the online.sh file.
 
 
-#### Some debug info from a Linux box running Ubuntu
+
+# Some debug info from a Linux box running Ubuntu
 Commands used are dmesg and lsusb
+
+For other USB2Serial bridges you might need another driver in OpenWrt
 
 Original Arduino UNO
 ```
