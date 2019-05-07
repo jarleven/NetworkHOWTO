@@ -116,7 +116,7 @@ Using the Clear/Reset Buttons
 To execute the factory default reset, perform these steps:
 1. Using pointed objects, simultaneously press both the Reset and Clear
 2. Continue to press the Clear button while releasing the Reset button.
-3. When the Self Test LED begins to flash, release the Clear button.
+3. When the Self Test LED begins to flash, release the Clear button. (It is important to release the Clear button in time)
 
 
 ### Save settings
