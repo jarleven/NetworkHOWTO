@@ -5,7 +5,7 @@
 [Management and Configuration Guide 2610 / 2610-PWR ProCurve Switches R.11.XX](http://static.highspeedbackbone.net/pdf/Hp-ProCurver-2610-Management-Manual.pdf)
 
 
-## Firmware dowload pages
+## Firmware download pages
 
 [Link to 2610 firmware](https://h10145.www1.hpe.com/downloads/SoftwareReleases.aspx?ProductNumber=J9086A&lang=en&cc=uk&prodSeriesId=5179339)
 
