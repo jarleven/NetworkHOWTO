@@ -31,6 +31,9 @@ show tech buffers
 Telnet port 23
 Serialport @ 19200 baud 8,N,1
 
+Bootloader is at 9600 baud
+Switch have auto speed detect
+
 ```
 
 Looks like the bootloader on the ProCurve switch is starting at 9600baud.  
@@ -41,6 +44,12 @@ To see the bootloader working connect at that speed (with RS-232 serialport ofco
 
 * [PuTTY](http://www.putty.org/)
 * [Terminte](https://www.compuphase.com/software_termite.htm)
+
+```
+minicom -D /dev/ttyUSB0 -b 9600
+
+To exit minicom ctrl-A Z  and then Q
+```
 
 ### Web Interface
 
