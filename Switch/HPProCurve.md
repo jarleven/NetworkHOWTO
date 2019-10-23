@@ -47,9 +47,12 @@ To see the bootloader working connect at that speed (with RS-232 serialport ofco
 * Minicom text/console terminal
 
 ```
+sudo apt install minicom
+
 minicom -D /dev/ttyUSB0 -b 9600
 
 To exit minicom ctrl-A Z  and then Q
+
 ```
 
 ### Web Interface
