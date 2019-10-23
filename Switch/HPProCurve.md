@@ -44,6 +44,7 @@ To see the bootloader working connect at that speed (with RS-232 serialport ofco
 
 * [PuTTY](http://www.putty.org/)
 * [Terminte](https://www.compuphase.com/software_termite.htm)
+* Minicom text/console terminal
 
 ```
 minicom -D /dev/ttyUSB0 -b 9600
