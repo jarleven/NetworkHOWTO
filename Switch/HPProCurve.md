@@ -105,7 +105,7 @@ chassislocate off
 ```
 
 
-### Clear settings / Reboot
+### Clear settings / Factory default / Reboot
 ```
 erase startup-config
 
