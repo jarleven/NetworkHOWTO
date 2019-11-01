@@ -9,7 +9,6 @@
 
 [Link to 2610 firmware](https://h10145.www1.hpe.com/downloads/SoftwareReleases.aspx?ProductNumber=J9086A&lang=en&cc=uk&prodSeriesId=5179339)
 
-Firmware "R_11_122.swi" release date 04. Mar 2018  Stored @  TFTP server 192.168.1.208
 ```
 copy tftp flash 192.168.1.208 R_11_122.swi
 ```
@@ -57,7 +56,7 @@ To exit minicom ctrl-A Z  and then Q
 
 ### Web Interface
 
-Look at my page for enabeling Java plugins https://github.com/jarleven/NetworkHOWTO/blob/master/Java.md
+Look at this page for enabeling Java plugins https://github.com/jarleven/NetworkHOWTO/blob/master/Java.md
  
 ### Various
 Help 
@@ -74,6 +73,8 @@ TAB completion !!! The device support TAB completion.
 
 
 ### Show system information
+Information about firmware version and system information.
+
 ```
 show system-information
 show ip
