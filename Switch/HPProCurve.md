@@ -73,7 +73,7 @@ TAB completion !!! The device support TAB completion.
 
 
 ### Show system information
-Information about firmware version and system information.
+Information about firmware version and system information like IP and device MAC address. 
 
 ```
 show system-information
