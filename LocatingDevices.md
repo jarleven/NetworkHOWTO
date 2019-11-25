@@ -59,6 +59,8 @@ sudo nast -i eth0 -m
 ### ARP scan
 ```
 sudo arp-scan -N -I enp2s12 192.168.250.0/24 
+sudo arp-scan --interface=enp3s0 192.168.250.0/24
+
 ```
  
 ### 01.10.2018 A small test
