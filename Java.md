@@ -22,6 +22,15 @@ Download install restart windows
 
 Link to releases : https://ftp.mozilla.org/pub/firefox/releases/
 
+
+Tested 25.11.2019 https://www.java.com/en/download/installed8.jsp?detect=jre
+```
+Firefox-ESR 52.7.3 (32-bit)
+Oracle Java Version 8 Update 231
+
+```
+
+
 ### Windows and HP Prolinat iLO
 
 HPE Lights-Out Standalone Remote Console for Windows
