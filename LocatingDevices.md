@@ -20,8 +20,16 @@ nmap -F 192.168.1.10
 nmap -Pn 192.168.1.10
 ```
 
+### Scan network for service and list IP only
+```
+sudo nmap -sS -p 23 192.168.1.0/24 --open | grep "192.168"
+```
+Locate all devices on port 23 (Telnet) with open port. Print out lines matching IP 192.168.?.?
+
+
 ### Nmap cheat sheets
 https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/
+
 
 
 ## ARP
@@ -30,6 +38,9 @@ List known hosts in the ARP cache of your computer. Windows and Linux
 ```
 arp -a
 ```
+
+For Linux hosts, add '-n, --numeric' for don't resolve names.
+
 
 ## nast
 
