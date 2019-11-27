@@ -30,6 +30,14 @@ Oracle Java Version 8 Update 231
 
 ```
 
+### Windows 10 and Internet Explorer
+
+Tested 27.11.2019
+```
+IE Version 11.6481713  Update version (11.0.115)
+You have the recommended Java installed (Version 8 Update 231).
+```
+
 
 ### Windows and HP Prolinat iLO
 
