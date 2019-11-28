@@ -1,9 +1,10 @@
 
-# Accessing legacy webpages requering Java plugin
-#### Work In Progress. Probably no needed to reboot. But do remember to turn off updates ASAP!
+# Accessing legacy webpages requering NAPI Java plugin
+## Netscape Plugin Application Programming Interface (NPAPI)
 
 To test your browser follow this link : https://www.java.com/en/download/installed8.jsp?detect=jre
 
+About NAPI : https://en.wikipedia.org/wiki/NPAPI
 
 ### Windows
 
@@ -23,7 +24,7 @@ Download install restart windows
 Link to releases : https://ftp.mozilla.org/pub/firefox/releases/
 
 
-#### Tested 25.11.2019 https://www.java.com/en/download/installed8.jsp?detect=jre
+#### Tested 25.11.2019
 ```
 Firefox-ESR 52.7.3 (32-bit)
 Oracle Java Version 8 Update 231
