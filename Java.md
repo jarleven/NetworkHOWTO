@@ -38,6 +38,7 @@ Tested 27.11.2019
 IE Version 11.6481713  Update version (11.0.115)
 You have the recommended Java installed (Version 8 Update 231).
 ```
+IE 11 download page (not tested) https://www.microsoft.com/en-us/download/internet-explorer.aspx
 
 
 ### Windows and HP Prolinat iLO
