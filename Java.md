@@ -1,5 +1,5 @@
 
-# Accessing legacy webpages requering NAPI Java plugin
+# Accessing legacy webpages requering NPAPI Java plugin
 ## Netscape Plugin Application Programming Interface (NPAPI)
 
 To test your browser follow this link : https://www.java.com/en/download/installed8.jsp?detect=jre
