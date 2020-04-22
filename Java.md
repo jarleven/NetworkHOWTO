@@ -4,7 +4,7 @@
 
 To test your browser follow this link : https://www.java.com/en/download/installed8.jsp?detect=jre
 
-About NAPI : https://en.wikipedia.org/wiki/NPAPI
+About NPAPI : https://en.wikipedia.org/wiki/NPAPI
 
 ### Windows 10 and Firefox ESR
 
