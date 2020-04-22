@@ -8,7 +8,7 @@ About NAPI : https://en.wikipedia.org/wiki/NPAPI
 
 ### Firefox ESR in Windows
 
-Direct download link For Firefox ESR : [Windows 32Bit US 52.7.3 ESR Installer](https://ftp.mozilla.org/pub/firefox/releases/52.7.3esr/win32/en-US/Firefox%20Setup%2052.7.3esr.exe)
+Direct download link for Firefox ESR : [Windows 32Bit US 52.7.3 ESR Installer](https://ftp.mozilla.org/pub/firefox/releases/52.7.3esr/win32/en-US/Firefox%20Setup%2052.7.3esr.exe)
 
 #### Disable the network after downloading the file, then install and run Firefox.
 #### Turn off updates in Firefox first time you run the application!
