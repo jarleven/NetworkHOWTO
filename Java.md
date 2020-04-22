@@ -6,7 +6,7 @@ To test your browser follow this link : https://www.java.com/en/download/install
 
 About NAPI : https://en.wikipedia.org/wiki/NPAPI
 
-### Firefox ESR in Windows
+### Windows 10 and Firefox ESR
 
 Direct download link for Firefox ESR : [Windows 32Bit US 52.7.3 ESR Installer](https://ftp.mozilla.org/pub/firefox/releases/52.7.3esr/win32/en-US/Firefox%20Setup%2052.7.3esr.exe)
 
