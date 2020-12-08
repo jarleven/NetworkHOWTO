@@ -54,6 +54,10 @@ To exit minicom ctrl-A Z  and then Q
 
 ```
 
+```
+Older models J4813A with DB9 male in front require null-modem cable for serial communication.
+```
+
 ### Web Interface
 
 Look at this page for enabeling Java plugins https://github.com/jarleven/NetworkHOWTO/blob/master/Java.md
