@@ -18,9 +18,11 @@ cp YOURFILE /var/lib/tftpboot/
 
 For Ubuntu 20.04.1
 ```
-The TFTP folder is in /tftp
-
-cp YOURFILE /tftp/
-
+cp YOURFILE /srv/tftp/
 ```
 
+Defaut config file for the TFTP server
+```
+vi /etc/default/tftpd-hpa
+
+```
