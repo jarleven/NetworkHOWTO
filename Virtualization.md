@@ -24,3 +24,6 @@ Windows installations missing drivers can be fixed with a working installer on a
 ```
 qemu-img convert test.img -O raw /dev/sdd
 ```
+
+## Converting physical disk/machine to image
+https://www.macrium.com/reflectfree
