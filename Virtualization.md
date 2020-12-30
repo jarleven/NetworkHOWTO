@@ -12,12 +12,15 @@ Remember to install VMWare tools
 
 Connect to the remote deskop  VRDP
 
-In windows Win+S mstsc 
-
+In windows search for the remote desktop application
+```
+Win+S mstsc 
+```
 
 ## QEMU / KVM
 
-Write a QEMU image to a physical disk
+Write a QEMU image to a physical disk.
+Windows installations missing drivers can be fixed with a working installer on a USB thumb drive.
 ```
 qemu-img convert test.img -O raw /dev/sdd
 ```
