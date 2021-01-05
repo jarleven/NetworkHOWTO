@@ -168,7 +168,7 @@ ProCurve(vlan-1)# no untagged 26
 
 Note: remove tagged port 'no tagged 26'
 
-Deleta a VLAN
+Delet a VLAN
 
 no vlan 137
 
