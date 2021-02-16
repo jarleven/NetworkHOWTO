@@ -81,3 +81,12 @@ firefox-esr
 
 Repository home
 https://launchpad.net/~jonathonf/+archive/ubuntu/firefox-esr-52
+
+
+
+
+### Alternatives still supporting (as of Feb. 2021) NAPI plugins like JAVA ( Not tested on iLO ! )
+* https://www.waterfox.net/
+* https://www.palemoon.org/
+* https://www.basilisk-browser.org/
+
