@@ -1,9 +1,9 @@
 ### OctoPrint on Creality Ender 3
 
-TODO: Picture of board and LCD firmware version
-TODO: Link to firmware
-TODO: Package to support Ender3 (hack)
-TODO: Thermal runnaway firmware protection : https://howchoo.com/ender3/ender-3-bootloader-firmware-update-marlin
+* TODO: Picture of board and LCD firmware version
+* TODO: Link to firmware
+* TODO: Package to support Ender3 (hack)
+* TODO: Thermal runnaway firmware protection : https://howchoo.com/ender3/ender-3-bootloader-firmware-update-marlin
 
 
 https://octoprint.org/download/
