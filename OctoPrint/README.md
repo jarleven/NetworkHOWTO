@@ -8,7 +8,8 @@ google "4.2.2 bltouch 16864"
 * TODO: Thermal runnaway firmware protection : https://howchoo.com/ender3/ender-3-bootloader-firmware-update-marlin
 
 
-https://octoprint.org/download/
+### Installing on a PC running Ubuntu 
+* https://octoprint.org/download/
 ```bash
 sudo apt install -y python3 python3-pip python3-dev
 sudo apt install -y python3-venv
