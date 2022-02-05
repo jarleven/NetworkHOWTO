@@ -5,7 +5,7 @@ google "4.2.2 bltouch 16864"
 * TODO: Picture of board and LCD firmware version
 * TODO: Difference Ender 3  -vs-  Ender 3 v2  -vs-  Ender 3 Pro
 * TODO: Link to firmware
-* TODO: Package to support Ender3 (hack)
+* TODO: Package to support Ender3 (safety temperature hack)
 * TODO: Thermal runnaway firmware protection : https://howchoo.com/ender3/ender-3-bootloader-firmware-update-marlin
 
 
