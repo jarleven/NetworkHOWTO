@@ -1,4 +1,6 @@
-### OctoPrint on Creality Ender 3
+### OctoPrint on Creality Ender 3, 4.2.2 Mainboard,  12864 LCD
+
+google "4.2.2 bltouch 16864"
 
 * TODO: Picture of board and LCD firmware version
 * TODO: Link to firmware
@@ -45,5 +47,15 @@ Baudrate 115200
 USB Webcam (Not tested)
 https://medium.com/@michal.jaglewicz/how-to-get-a-video-stream-for-octoprint-on-linux-8a7cc2bd1fe8
 
+
+# Marlin Build
+https://github.com/MarlinFirmware/Marlin
+https://github.com/criskurtin/Marlin/tree/marlin2-v422-bltouch
+
+
+
+# Firmware (Not tested)
+
+https://marlin.crc.id.au/firmware/Ender%203%20-%20v4.2.2%20Board%20-%20BLTouch/
 
 
