@@ -24,7 +24,8 @@ pip3 install OctoPrint
 ./OctoPrint/bin/octoprint serve
 ```
 
-https://howchoo.com/g/ntg5yzg1odk/using-octoprint-with-the-creality-ender-3-3d-printer
+# OctoPrint settings
+* https://howchoo.com/g/ntg5yzg1odk/using-octoprint-with-the-creality-ender-3-3d-printer
 ```
 Form factor: Rectangular
 Origin: Lower Left
@@ -44,8 +45,8 @@ Baudrate 115200
 
 
 
-USB Webcam (Not tested)
-https://medium.com/@michal.jaglewicz/how-to-get-a-video-stream-for-octoprint-on-linux-8a7cc2bd1fe8
+# USB Webcam (Not tested)
+* https://medium.com/@michal.jaglewicz/how-to-get-a-video-stream-for-octoprint-on-linux-8a7cc2bd1fe8
 
 
 # Marlin Build
