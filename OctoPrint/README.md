@@ -49,13 +49,14 @@ https://medium.com/@michal.jaglewicz/how-to-get-a-video-stream-for-octoprint-on-
 
 
 # Marlin Build
-https://github.com/MarlinFirmware/Marlin
-https://github.com/criskurtin/Marlin/tree/marlin2-v422-bltouch
+
+* https://github.com/MarlinFirmware/Marlin
+* https://github.com/criskurtin/Marlin/tree/marlin2-v422-bltouch
 
 
 
 # Firmware (Not tested)
 
-https://marlin.crc.id.au/firmware/Ender%203%20-%20v4.2.2%20Board%20-%20BLTouch/
+* https://marlin.crc.id.au/firmware/Ender%203%20-%20v4.2.2%20Board%20-%20BLTouch/
 
 
