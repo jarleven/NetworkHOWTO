@@ -7,5 +7,5 @@ echo.> d:\ssh.txt
 
 
 ```bash
-sudo timedatectl set-timezone America/New_York
+sudo timedatectl set-timezone Europe/Oslo
 ```
