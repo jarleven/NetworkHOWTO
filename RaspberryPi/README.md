@@ -11,6 +11,21 @@ echo.> d:\ssh.txt
 sudo timedatectl set-timezone Europe/Oslo
 ```
 
+```
+# wpa_supplicant.conf
+country=NO
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+	ssid="YourSSID"
+	psk="YourKEY"
+	proto=RSN
+	key_mgmt=WPA-PSK
+	pairwise=CCMP
+	auth_alg=OPEN
+}
+```
 
 
 * https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit
