@@ -11,6 +11,8 @@ echo.> d:\ssh.txt
 sudo timedatectl set-timezone Europe/Oslo
 ```
 
+#### Example WPA config file
+
 ```
 # wpa_supplicant.conf
 country=NO
@@ -27,7 +29,14 @@ network={
 }
 ```
 
+#### Raspbian download
 
 * https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit
 * https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit
+
+
+#### Balena Etcher 
+
+* https://www.balena.io/etcher/
+* 
 
