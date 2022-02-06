@@ -51,6 +51,11 @@ Baudrate 115200
 * https://medium.com/@michal.jaglewicz/how-to-get-a-video-stream-for-octoprint-on-linux-8a7cc2bd1fe8
 
 
+### Fusion360 CAM / OctoPrint plugin
+* https://www.youtube.com/watch?v=GQSJIdTnNOU
+* 
+
+
 ### Marlin Build
 
 * https://github.com/MarlinFirmware/Marlin
