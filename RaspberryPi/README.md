@@ -1,7 +1,7 @@
 
 #### Copy WiFi settings and enable SSH on a fresh baked SDCard
 ```
-copy c:\Temp\wpa_supplicant__.conf d:\wpa_supplicant.conf
+copy c:\Temp\wpa_supplicant.conf d:\wpa_supplicant.conf
 echo.> d:\ssh.txt
 ```
 
