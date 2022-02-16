@@ -8,6 +8,8 @@ google "4.2.2 bltouch 16864"
 * TODO: Package to support Ender3 (safety temperature hack)
 * TODO: Thermal runnaway firmware protection : https://howchoo.com/ender3/ender-3-bootloader-firmware-update-marlin
 
+* User / Password / host 
+* octoprint / 3Dprint / https://192.168.1.131:5000
 
 ### Installing on a PC running Ubuntu 
 * https://octoprint.org/download/
