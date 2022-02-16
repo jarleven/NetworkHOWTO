@@ -11,6 +11,9 @@ google "4.2.2 bltouch 16864"
 * User / Password / host 
 * octoprint / 3Dprint / https://192.168.1.131:5000
 
+### Linux slicer
+* Cura 4.8 in Ubuntu TODO share settings file ?
+
 ### Installing on a PC running Ubuntu 
 * https://octoprint.org/download/
 ```bash
