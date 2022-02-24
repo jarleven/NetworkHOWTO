@@ -17,6 +17,17 @@ Also valid for Asus RT-N66U
 [Official OpenWrt Acer C7 page](https://openwrt.org/toh/tp-link/archer-c7-1750?datasrt=firmware%20openwrt%20install%20url)
 
 
+```
+  WiFi Adapter
+  JTAG adapter 
+  
+  TxD
+  RxD
+  GND
+  VCC
+
+  LED Frontpanel
+```
 
 ## Firmware
 
