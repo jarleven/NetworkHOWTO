@@ -16,4 +16,7 @@
 
 ![Ender 3](https://cf-images.dustin.eu/cdn-cgi/image/format=auto,quality=75,width=1080/image/d200001001249632/creality-3d-ender-3-pro-3d-printer.png)
 
+
+![Flashforge](https://cf-images.dustin.eu/cdn-cgi/image/format=auto,quality=75,width=828/image/d200001003257987/flashforge-creator-pro-2-idex.jpg)
+
 ![3D Systems 3DTouch](http://elco.crsndoo.com/bfb/www.bitsfrombytes.com:8080/usd/sites/www.bitsfrombytes.com/files/imagecache/product/BFB-3DTouch-Clear-3D-Printer.jpg)
