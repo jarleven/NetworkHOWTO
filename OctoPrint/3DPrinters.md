@@ -7,5 +7,8 @@
 
 ### 3D Printers not working
 
-* 3D Systems Cube X Duo (Knockoff ?)
+* 3D Systems Cube X Duo (Knockoff ?)  3D Systems 3D Touch
 * Prusa i3 plywood / Marlin / Ramps 1.4
+
+
+![3D Systems 3DTouch](http://elco.crsndoo.com/bfb/www.bitsfrombytes.com:8080/usd/sites/www.bitsfrombytes.com/files/imagecache/product/BFB-3DTouch-Clear-3D-Printer.jpg)
