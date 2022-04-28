@@ -14,7 +14,7 @@ BusyBox v1.28.4 () built-in shell (ash)
 # Quick start for our TP-Link Archer C7 v2 Routers
 Also valid for Asus RT-N66U
 
-[Official OpenWrt Acer C7 page](https://openwrt.org/toh/tp-link/archer-c7-1750?datasrt=firmware%20openwrt%20install%20url)
+[Official OpenWrt Acer C7 page](https://openwrt.org/toh/tp-link/archer_c7)
 
 
 ```
@@ -41,6 +41,8 @@ Also valid for Asus RT-N66U
 #### v 18.06.2  For upgrading TP-Link fom older OpenWrt firmware.
 [https://downloads.openwrt.org/releases/18.06.2/targets/ar71xx/generic/openwrt-18.06.2-ar71xx-generic-archer-c7-v2-il-squashfs-sysupgrade.bin]
 
+#### v 21.02.3  For upgrading TP-Link fom older OpenWrt firmware.
+https://downloads.openwrt.org/releases/21.02.3/targets/ath79/generic/openwrt-21.02.3-ath79-generic-tplink_archer-c7-v2-squashfs-sysupgrade.bin
 
 
 ## USB Audio
