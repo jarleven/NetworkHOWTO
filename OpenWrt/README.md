@@ -183,7 +183,7 @@ Use Wireshark to snoop ARP and traffic to 192.168.0.66
 Some info about TFTPd here :
 https://github.com/jarleven/NetworkHOWTO/blob/master/TFTP-Windows.md
 
-Use the factory firmware when doing TFTP upgrade:
+Use the factory firmware when doing TFTP upgrade (Wait 5..10minutes atleast): 
 https://downloads.openwrt.org/releases/21.02.3/targets/ath79/generic/openwrt-21.02.3-ath79-generic-tplink_archer-c7-v2-squashfs-factory.bin
 
 
