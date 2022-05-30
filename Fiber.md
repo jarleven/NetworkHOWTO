@@ -8,6 +8,7 @@ https://en.wikipedia.org/wiki/IEEE_802.3
 
 
 ![UPC/APC](https://media.cablematic.com/hqterms/pulido_fibra.png)
+![Color coding](https://www.ingenova.com/wp-content/uploads/2021/06/apc-vs-upc.png)
 
 
 ### Pigtail
