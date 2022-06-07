@@ -31,3 +31,10 @@ Bandwidth / Price / Laser / LED / Distance
 
 
 ![FiberTray](https://thumbs.dreamstime.com/b/optic-fiber-cable-splicing-fibers-spice-tray-optical-distribution-frame-123502078.jpg)
+
+
+
+
+### Instruksjonsvideo terminering fiberskuff
+Sidan vi skal bruke dette fleire gongar så kuttar vi ikkje fiberhalane !!!
+  https://www.youtube.com/watch?v=9aNzLRfYQfo.
