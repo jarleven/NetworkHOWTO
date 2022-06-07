@@ -38,3 +38,8 @@ Bandwidth / Price / Laser / LED / Distance
 ### Instruksjonsvideo terminering fiberskuff
 Sidan vi skal bruke dette fleire gongar så kuttar vi ikkje fiberhalane !!!
   https://www.youtube.com/watch?v=9aNzLRfYQfo.
+
+
+
+### ATS 80A fiber splicer
+https://opfibra.com/produto/ats-80-a/?lang=en
