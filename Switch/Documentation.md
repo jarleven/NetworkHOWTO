@@ -4,4 +4,5 @@
 Some Visio stencils
 ```
 http://www.visiocafe.com/hpe.htm
+https://www.cisco.com/c/en/us/products/visio-stencil-listing.html
 ```
