@@ -33,6 +33,8 @@ Bandwidth / Price / Laser / LED / Distance
 ![FiberTray](https://thumbs.dreamstime.com/b/optic-fiber-cable-splicing-fibers-spice-tray-optical-distribution-frame-123502078.jpg)
 
 
+![ColorCodes](https://blog.twoosk.com/wp-content/uploads/2022/07/MicrosoftTeams-image-1-1024x367.png)
+
 
 
 ### Instruksjonsvideo terminering fiberskuff
