@@ -1,7 +1,7 @@
 ### LucidChart
 
 
-Log in with Microsfot account
+Log in with Microsoft account
 
 
 ### HP Proliant and Aruba
