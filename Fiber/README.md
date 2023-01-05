@@ -27,14 +27,15 @@ Optical budget: 9.4 dB
 
 
 ```
-CISCO_SFP-H10GB-CU3M
-
 CISCO
 SFP-H10GB-CU3M 37-0961-03
 MADE IN CHINA
 COM
 N906 P V03
 SN: TED15468CES
+
+
+SFP+ Passive Direct Attach Copper Twinax Cable
 
 ```
 !['H10GB-CU3M'](https://github.com/jarleven/NetworkHOWTO/raw/master/Fiber/SFPs/CISCO_SFP-H10GB-CU3M.jpg)
