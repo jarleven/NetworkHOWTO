@@ -4,6 +4,7 @@
 Log in with Microsfot account
 
 
+### HP Proliant and Aruba
 ```
 
 http://www.visiocafe.com/downloads/hp/HPE-Classic-ProLiant.zip
@@ -25,6 +26,19 @@ http://www.visiocafe.com/downloads/hp/HPE-Aruba-Networking.zip
 
 ```
 
+### Patch Panels
+```
+Copper
+https://www.premiumline-cabling.com/service_category/visio-stencils/
+
+Fiber Optic
+https://www.premiumline-cabling.com/service_category/visio-stencils-for-fo/
+
+Open frames
+https://www.premiumline-cabling.com/service_category/visio-stencils-for-cabinets/
+
+
+```
 
 
 
