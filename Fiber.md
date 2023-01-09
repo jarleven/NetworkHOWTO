@@ -44,4 +44,7 @@ Sidan vi skal bruke dette fleire gongar så kuttar vi ikkje fiberhalane !!!
 
 
 ### ATS 80A fiber splicer
-https://opfibra.com/produto/ats-80-a/?lang=en
+ * https://opfibra.com/produto/ats-80-a/?lang=en
+
+### Howto splice fiber (TODO make our own instructions) 
+* https://www.youtube.com/watch?v=5TM3Y6gSmxs
