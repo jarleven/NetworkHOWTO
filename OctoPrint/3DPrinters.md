@@ -1,6 +1,6 @@
 ### 3D Printer inventory
 
-* Stratasys Uprint SE Plus
+* Stratasys Uprint SE Plus   (MAC addr 00:0B:AB:95:4C:35   192.168.1.183)
 * Creality Ender 3, 4.2.2 Mainboard, 12864 LCD
 * Flashforge Creator Pro 2
 * ProJet CJP 660Pro
