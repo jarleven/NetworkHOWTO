@@ -261,6 +261,9 @@ ProCurve(config)# interface 1 power
 To disable a range of ports (Port number 1 to 12 in this case)
 ProCurve(config)# no interface 1-12 power
 
+Show power delivery on each port
+ProCurve(config)# show power-management brief 
+
 ```
  
     
